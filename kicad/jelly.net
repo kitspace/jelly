@@ -1,0 +1,32 @@
+(export (version D)
+  (design
+    (source /home/kaspar/projects/jelly/hardware/jelly.sch)
+    (date "Fri 26 Aug 2016 23:37:22 BST")
+    (tool "Eeschema 4.0.3+e1-6302~38~ubuntu14.04.1-stable")
+    (sheet (number 1) (name /) (tstamps /)
+      (title_block
+        (title)
+        (company)
+        (rev)
+        (date)
+        (source jelly.sch)
+        (comment (number 1) (value ""))
+        (comment (number 2) (value ""))
+        (comment (number 3) (value ""))
+        (comment (number 4) (value "")))))
+  (components
+    (comp (ref DNP1)
+      (value jelly)
+      (footprint footprints:jelly)
+      (libsource (lib placeholder) (part placeholder))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 57C0C594)))
+  (libparts
+    (libpart (lib placeholder) (part placeholder)
+      (fields
+        (field (name Reference) DNP)
+        (field (name Value) placeholder))))
+  (libraries
+    (library (logical placeholder)
+      (uri kicad/symbols/placeholder.lib)))
+  (nets))
