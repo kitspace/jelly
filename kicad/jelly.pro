@@ -1,4 +1,4 @@
-update=Fri 26 Aug 2016 23:30:55 BST
+update=Sat 27 Aug 2016 00:34:51 BST
 version=1
 last_client=kicad
 [general]
@@ -29,7 +29,7 @@ version=1
 NetIExt=net
 [eeschema]
 version=1
-LibDir=kicad/symbols
+LibDir=symbols
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -60,4 +60,4 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=kicad/symbols/placeholder
+LibName30=symbols/placeholder
