@@ -1,4 +1,4 @@
-update=Sat 27 Aug 2016 00:34:51 BST
+update=Sun 28 Aug 2016 17:33:02 BST
 version=1
 last_client=kicad
 [general]
@@ -61,3 +61,4 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=symbols/placeholder
+LibName31=symbols/ldr
