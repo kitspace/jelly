@@ -1,0 +1,7 @@
+$*.sch
+*.sw*
+*.kicad_pcb-bak
+*.bak
+*.bck
+_saved*.sch
+_autosave*.kicad_pcb
