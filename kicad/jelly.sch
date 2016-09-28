@@ -54,7 +54,7 @@ F 1 "jelly" H 7450 6400 60  0000 C CNN
 F 2 "custom:jelly" H 7450 6300 60  0001 C CNN
 F 3 "" H 7450 6300 60  0001 C CNN
 	1    7450 6150
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L BATTERY BT1
@@ -62,10 +62,10 @@ U 1 1 57C0D38C
 P 3200 3500
 F 0 "BT1" H 3200 3700 50  0000 C CNN
 F 1 "BATTERY" H 3200 3310 50  0000 C CNN
-F 2 "KiCad/Pin_Headers.pretty:Pin_Header_Straight_1x02" H 3200 3500 60  0001 C CNN
+F 2 "KiCad/Pin_Headers.pretty:Pin_Header_Straight_1x02" H 3200 3500 29  0001 C CNN
 F 3 "~" H 3200 3500 60  0000 C CNN
 	1    3200 3500
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND-RESCUE-bristle_bot #PWR01
@@ -76,7 +76,7 @@ F 1 "GND" H 3650 3430 30  0001 C CNN
 F 2 "" H 3650 3500 60  0000 C CNN
 F 3 "" H 3650 3500 60  0000 C CNN
 	1    3650 3500
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L Pager_motor M1
@@ -84,10 +84,10 @@ U 1 1 57C0D38F
 P 5300 2300
 F 0 "M1" V 5500 2350 40  0000 R CNN
 F 1 "PAGER_MOTOR" V 5100 2450 40  0000 R CNN
-F 2 "custom:pager_motor_custom" H 5300 2300 29  0000 C CNN
+F 2 "custom:pager_motor_custom" H 5300 2300 29  0001 C CNN
 F 3 "" H 5300 2300 60  0000 C CNN
 	1    5300 2300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L 2N7000 Q1
@@ -95,10 +95,10 @@ U 1 1 57C0D390
 P 5250 2900
 F 0 "Q1" H 5250 2752 40  0000 R CNN
 F 1 "2N7000" H 5250 3050 40  0000 R CNN
-F 2 "KiCad/TO_SOT_Packages_THT.pretty:TO-92_Rugged" H 5150 3002 29  0000 C CNN
+F 2 "KiCad/TO_SOT_Packages_THT.pretty:TO-92_Rugged" H 5150 3002 29  0001 C CNN
 F 3 "" H 5250 2900 60  0000 C CNN
 	1    5250 2900
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VCC #PWR02
@@ -106,10 +106,10 @@ U 1 1 57C0D391
 P 1100 3600
 F 0 "#PWR02" H 1100 3700 30  0001 C CNN
 F 1 "VCC" H 1100 3700 30  0000 C CNN
-F 2 "" H 1100 3600 60  0000 C CNN
+F 2 "" H 1100 3600 60  0001 C CNN
 F 3 "" H 1100 3600 60  0000 C CNN
 	1    1100 3600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VCC #PWR03
@@ -117,10 +117,10 @@ U 1 1 57C0D393
 P 4200 2900
 F 0 "#PWR03" H 4200 3000 30  0001 C CNN
 F 1 "VCC" H 4200 3000 30  0000 C CNN
-F 2 "" H 4200 2900 60  0000 C CNN
+F 2 "" H 4200 2900 60  0001 C CNN
 F 3 "" H 4200 2900 60  0000 C CNN
 	1    4200 2900
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VCC #PWR04
@@ -128,10 +128,10 @@ U 1 1 57C0D394
 P 5200 2650
 F 0 "#PWR04" H 5200 2750 30  0001 C CNN
 F 1 "VCC" H 5200 2750 30  0000 C CNN
-F 2 "" H 5200 2650 60  0000 C CNN
+F 2 "" H 5200 2650 60  0001 C CNN
 F 3 "" H 5200 2650 60  0000 C CNN
 	1    5200 2650
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND-RESCUE-bristle_bot #PWR05
@@ -139,10 +139,10 @@ U 1 1 57C0D395
 P 5650 3150
 F 0 "#PWR05" H 5650 3150 30  0001 C CNN
 F 1 "GND" H 5650 3080 30  0001 C CNN
-F 2 "" H 5650 3150 60  0000 C CNN
+F 2 "" H 5650 3150 60  0001 C CNN
 F 3 "" H 5650 3150 60  0000 C CNN
 	1    5650 3150
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Pager_motor M2
@@ -150,10 +150,10 @@ U 1 1 57C0D396
 P 8250 2200
 F 0 "M2" V 8450 2250 40  0000 R CNN
 F 1 "PAGER_MOTOR" V 8050 2350 40  0000 R CNN
-F 2 "custom:pager_motor_custom" H 8250 2200 29  0000 C CNN
+F 2 "custom:pager_motor_custom" H 8250 2200 29  0001 C CNN
 F 3 "" H 8250 2200 60  0000 C CNN
 	1    8250 2200
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VCC #PWR06
@@ -161,10 +161,10 @@ U 1 1 57C0D397
 P 8150 2550
 F 0 "#PWR06" H 8150 2650 30  0001 C CNN
 F 1 "VCC" H 8150 2650 30  0000 C CNN
-F 2 "" H 8150 2550 60  0000 C CNN
+F 2 "" H 8150 2550 60  0001 C CNN
 F 3 "" H 8150 2550 60  0000 C CNN
 	1    8150 2550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L 2N7000 Q2
@@ -172,10 +172,10 @@ U 1 1 57C0D398
 P 8200 2800
 F 0 "Q2" H 8200 2652 40  0000 R CNN
 F 1 "2N7000" H 8200 2950 40  0000 R CNN
-F 2 "KiCad/TO_SOT_Packages_THT.pretty:TO-92_Rugged" H 8100 2902 29  0000 C CNN
+F 2 "KiCad/TO_SOT_Packages_THT.pretty:TO-92_Rugged" H 8100 2902 29  0001 C CNN
 F 3 "" H 8200 2800 60  0000 C CNN
 	1    8200 2800
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND-RESCUE-bristle_bot #PWR07
@@ -183,10 +183,10 @@ U 1 1 57C0D399
 P 8650 3050
 F 0 "#PWR07" H 8650 3050 30  0001 C CNN
 F 1 "GND" H 8650 2980 30  0001 C CNN
-F 2 "" H 8650 3050 60  0000 C CNN
+F 2 "" H 8650 3050 60  0001 C CNN
 F 3 "" H 8650 3050 60  0000 C CNN
 	1    8650 3050
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VCC #PWR08
@@ -194,10 +194,10 @@ U 1 1 57C0D39B
 P 7150 2800
 F 0 "#PWR08" H 7150 2900 30  0001 C CNN
 F 1 "VCC" H 7150 2900 30  0000 C CNN
-F 2 "" H 7150 2800 60  0000 C CNN
+F 2 "" H 7150 2800 60  0001 C CNN
 F 3 "" H 7150 2800 60  0000 C CNN
 	1    7150 2800
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L SWITCH_INV SW1
@@ -208,7 +208,7 @@ F 1 "SWITCH_INV" H 1650 3450 50  0000 C CNN
 F 2 "" H 1800 3600 60  0001 C CNN
 F 3 "~" H 1800 3600 60  0000 C CNN
 	1    1800 3600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L LED-RESCUE-bristle_bot D2
@@ -216,10 +216,10 @@ U 1 1 57C0D39F
 P 8600 2600
 F 0 "D2" H 8600 2700 50  0000 C CNN
 F 1 "LED" H 8600 2500 50  0000 C CNN
-F 2 "KiCad/LEDs.pretty:LED-5MM" H 8600 2600 60  0000 C CNN
+F 2 "KiCad/LEDs.pretty:LED-5MM" H 8600 2600 29  0001 C CNN
 F 3 "~" H 8600 2600 60  0000 C CNN
 	1    8600 2600
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L R-RESCUE-bristle_bot R4
@@ -227,10 +227,10 @@ U 1 1 57C0D3A0
 P 9200 2600
 F 0 "R4" V 9280 2600 40  0000 C CNN
 F 1 "R" V 9207 2601 40  0000 C CNN
-F 2 "KiCad/Discret.pretty:R3-5" V 9130 2600 30  0000 C CNN
+F 2 "KiCad/Discret.pretty:R3-5" V 9130 2600 30  0001 C CNN
 F 3 "~" H 9200 2600 30  0000 C CNN
 	1    9200 2600
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L VCC #PWR09
@@ -238,10 +238,10 @@ U 1 1 57C0D3A1
 P 9500 2600
 F 0 "#PWR09" H 9500 2700 30  0001 C CNN
 F 1 "VCC" H 9500 2700 30  0000 C CNN
-F 2 "" H 9500 2600 60  0000 C CNN
+F 2 "" H 9500 2600 60  0001 C CNN
 F 3 "" H 9500 2600 60  0000 C CNN
 	1    9500 2600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L R-RESCUE-bristle_bot R2
@@ -249,10 +249,10 @@ U 1 1 57C0D3A2
 P 6500 2700
 F 0 "R2" V 6580 2700 40  0000 C CNN
 F 1 "220" V 6507 2701 40  0000 C CNN
-F 2 "KiCad/Discret.pretty:R3-5" V 6430 2700 30  0000 C CNN
+F 2 "KiCad/Discret.pretty:R3-5" V 6430 2700 30  0001 C CNN
 F 3 "~" H 6500 2700 30  0000 C CNN
 	1    6500 2700
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L LED-RESCUE-bristle_bot D1
@@ -260,10 +260,10 @@ U 1 1 57C0D3A3
 P 5650 2700
 F 0 "D1" H 5650 2800 50  0000 C CNN
 F 1 "LED" H 5650 2600 50  0000 C CNN
-F 2 "KiCad/LEDs.pretty:LED-5MM" H 5650 2700 60  0000 C CNN
+F 2 "KiCad/LEDs.pretty:LED-5MM" H 5650 2700 60  0001 C CNN
 F 3 "~" H 5650 2700 60  0000 C CNN
 	1    5650 2700
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L VCC #PWR010
@@ -271,10 +271,10 @@ U 1 1 57C0D3A4
 P 6800 2700
 F 0 "#PWR010" H 6800 2800 30  0001 C CNN
 F 1 "VCC" H 6800 2800 30  0000 C CNN
-F 2 "" H 6800 2700 60  0000 C CNN
+F 2 "" H 6800 2700 60  0001 C CNN
 F 3 "" H 6800 2700 60  0000 C CNN
 	1    6800 2700
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L CONN_01X01 P4
@@ -285,7 +285,7 @@ F 1 "CONN_01X01" V 2100 4950 50  0000 C CNN
 F 2 "custom:hole2" H 2000 4950 50  0001 C CNN
 F 3 "" H 2000 4950 50  0000 C CNN
 	1    2000 4950
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L CONN_01X01 P6
@@ -296,7 +296,7 @@ F 1 "CONN_01X01" V 3250 4950 50  0000 C CNN
 F 2 "custom:hole2" H 3150 4950 50  0001 C CNN
 F 3 "" H 3150 4950 50  0000 C CNN
 	1    3150 4950
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L CONN_01X01 P8
@@ -307,7 +307,7 @@ F 1 "CONN_01X01" V 4400 4950 50  0000 C CNN
 F 2 "custom:hole2" H 4300 4950 50  0001 C CNN
 F 3 "" H 4300 4950 50  0000 C CNN
 	1    4300 4950
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L CONN_01X01 P13
@@ -318,7 +318,7 @@ F 1 "CONN_01X01" V 7000 4950 50  0000 C CNN
 F 2 "custom:hole2" H 6900 4950 50  0001 C CNN
 F 3 "" H 6900 4950 50  0000 C CNN
 	1    6900 4950
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L CONN_01X01 P3
@@ -329,7 +329,7 @@ F 1 "CONN_01X01" V 1550 4950 50  0000 C CNN
 F 2 "custom:hole2" H 1450 4950 50  0001 C CNN
 F 3 "" H 1450 4950 50  0000 C CNN
 	1    1450 4950
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L CONN_01X01 P5
@@ -340,7 +340,7 @@ F 1 "CONN_01X01" V 2700 4950 50  0000 C CNN
 F 2 "custom:hole2" H 2600 4950 50  0001 C CNN
 F 3 "" H 2600 4950 50  0000 C CNN
 	1    2600 4950
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L CONN_01X01 P7
@@ -351,7 +351,7 @@ F 1 "CONN_01X01" V 3800 4950 50  0000 C CNN
 F 2 "custom:hole2" H 3700 4950 50  0001 C CNN
 F 3 "" H 3700 4950 50  0000 C CNN
 	1    3700 4950
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L CONN_01X01 P14
@@ -362,7 +362,7 @@ F 1 "CONN_01X01" V 7500 4950 50  0000 C CNN
 F 2 "custom:hole2" H 7400 4950 50  0001 C CNN
 F 3 "" H 7400 4950 50  0000 C CNN
 	1    7400 4950
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L VCC #PWR011
@@ -370,10 +370,10 @@ U 1 1 57C0D3B0
 P 1450 4350
 F 0 "#PWR011" H 1450 4450 30  0001 C CNN
 F 1 "VCC" H 1450 4450 30  0000 C CNN
-F 2 "" H 1450 4350 60  0000 C CNN
+F 2 "" H 1450 4350 60  0001 C CNN
 F 3 "" H 1450 4350 60  0000 C CNN
 	1    1450 4350
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text GLabel 5350 2550 2    60   Input ~ 0
 Vout1
@@ -388,7 +388,7 @@ F 1 "CONN_01X01" V 7900 6000 50  0000 C CNN
 F 2 "custom:hole" H 7800 6000 50  0001 C CNN
 F 3 "" H 7800 6000 50  0000 C CNN
 	1    7800 6000
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L CONN_01X01 P2
@@ -399,7 +399,7 @@ F 1 "CONN_01X01" V 8400 6000 50  0000 C CNN
 F 2 "custom:hole" H 8300 6000 50  0001 C CNN
 F 3 "" H 8300 6000 50  0000 C CNN
 	1    8300 6000
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L CONN_01X01 P9
@@ -410,7 +410,7 @@ F 1 "CONN_01X01" V 5000 4950 50  0000 C CNN
 F 2 "custom:hole2" H 4900 4950 50  0001 C CNN
 F 3 "" H 4900 4950 50  0000 C CNN
 	1    4900 4950
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L CONN_01X01 P11
@@ -421,7 +421,7 @@ F 1 "CONN_01X01" V 6000 4950 50  0000 C CNN
 F 2 "custom:hole2" H 5900 4950 50  0001 C CNN
 F 3 "" H 5900 4950 50  0000 C CNN
 	1    5900 4950
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L CONN_01X01 P10
@@ -432,7 +432,7 @@ F 1 "CONN_01X01" V 5500 4950 50  0000 C CNN
 F 2 "custom:hole2" H 5400 4950 50  0001 C CNN
 F 3 "" H 5400 4950 50  0000 C CNN
 	1    5400 4950
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L CONN_01X01 P12
@@ -443,7 +443,7 @@ F 1 "CONN_01X01" V 6500 4950 50  0000 C CNN
 F 2 "custom:hole2" H 6400 4950 50  0001 C CNN
 F 3 "" H 6400 4950 50  0000 C CNN
 	1    6400 4950
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L CONN_01X01 P15
@@ -454,7 +454,7 @@ F 1 "CONN_01X01" V 8000 4950 50  0000 C CNN
 F 2 "custom:hole2" H 7900 4950 50  0001 C CNN
 F 3 "" H 7900 4950 50  0000 C CNN
 	1    7900 4950
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L VCC #PWR012
@@ -462,10 +462,10 @@ U 1 1 57C309E3
 P 7900 4600
 F 0 "#PWR012" H 7900 4700 30  0001 C CNN
 F 1 "VCC" H 7900 4700 30  0000 C CNN
-F 2 "" H 7900 4600 60  0000 C CNN
+F 2 "" H 7900 4600 60  0001 C CNN
 F 3 "" H 7900 4600 60  0000 C CNN
 	1    7900 4600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Photores R1
@@ -476,7 +476,7 @@ F 1 "Photores" V 4246 2900 50  0000 C CNN
 F 2 "custom:ldr" V 4530 2900 50  0001 C CNN
 F 3 "" H 4600 2900 50  0000 C CNN
 	1    4600 2900
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L Photores R3
@@ -487,7 +487,7 @@ F 1 "Photores" V 7196 2800 50  0000 C CNN
 F 2 "custom:ldr" V 7480 2800 50  0001 C CNN
 F 3 "" H 7550 2800 50  0000 C CNN
 	1    7550 2800
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L placeholder DNP3
@@ -498,7 +498,7 @@ F 1 "ldr_image" H 9350 6450 60  0000 C CNN
 F 2 "custom:ldr_image" H 9350 6350 60  0001 C CNN
 F 3 "" H 9350 6350 60  0001 C CNN
 	1    9350 6200
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L placeholder DNP2
@@ -509,7 +509,7 @@ F 1 "ldr_image" H 8800 6450 60  0000 C CNN
 F 2 "custom:ldr_image" H 8800 6350 60  0001 C CNN
 F 3 "" H 8800 6350 60  0001 C CNN
 	1    8800 6200
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text GLabel 2700 4250 2    60   Input ~ 0
 Vout1
@@ -521,10 +521,10 @@ U 1 1 57C36163
 P 4600 4550
 F 0 "#PWR013" H 4600 4550 30  0001 C CNN
 F 1 "GND" H 4600 4480 30  0001 C CNN
-F 2 "" H 4600 4550 60  0000 C CNN
+F 2 "" H 4600 4550 60  0001 C CNN
 F 3 "" H 4600 4550 60  0000 C CNN
 	1    4600 4550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	5050 2900 5050 3200
@@ -633,10 +633,10 @@ U 1 1 57C3486C
 P 8450 6350
 F 0 "#PWR014" H 8450 6450 30  0001 C CNN
 F 1 "VCC" H 8450 6450 30  0000 C CNN
-F 2 "" H 8450 6350 60  0000 C CNN
+F 2 "" H 8450 6350 60  0001 C CNN
 F 3 "" H 8450 6350 60  0000 C CNN
 	1    8450 6350
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Wire Wire Line
 	8300 6200 8300 6350
@@ -651,7 +651,7 @@ F 1 "D_Small" H 2575 3614 50  0000 C CNN
 F 2 "KiCad/Diodes_ThroughHole.pretty:Diode_DO-41_SOD81_Horizontal_RM10" V 2575 3500 50  0001 C CNN
 F 3 "" V 2575 3500 50  0000 C CNN
 	1    2575 3500
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	2300 3500 2475 3500
