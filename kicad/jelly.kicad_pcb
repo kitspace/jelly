@@ -79,7 +79,7 @@
       (psnegative false)
       (psa4output false)
       (plotreference true)
-      (plotvalue true)
+      (plotvalue false)
       (plotinvisibletext false)
       (padsonsilk false)
       (subtractmaskfromsilk false)
@@ -10043,7 +10043,7 @@
   )
 
   (module custom:ldr_image (layer B.Cu) (tedit 57C31F0F) (tstamp 57C4AF02)
-    (at 136.9974 71.8614)
+    (at 137.053 69.823)
     (descr "Imported from drawings/ldr.svg")
     (tags svg2mod)
     (path /57C328E4)
@@ -10428,7 +10428,7 @@
   )
 
   (module custom:ldr_image (layer B.Cu) (tedit 57C31F0F) (tstamp 57C4AF0C)
-    (at 163.053 71.823)
+    (at 163.053 69.823)
     (descr "Imported from drawings/ldr.svg")
     (tags svg2mod)
     (path /57C329E6)
