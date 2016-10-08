@@ -763,4 +763,17 @@ Wire Wire Line
 Connection ~ 1325 1375
 Wire Wire Line
 	1325 2700 1325 2025
+$Comp
+L GND-RESCUE-bristle_bot #PWR?
+U 1 1 57F92FC8
+P 7800 6275
+F 0 "#PWR?" H 7800 6275 30  0001 C CNN
+F 1 "GND" H 7800 6205 30  0001 C CNN
+F 2 "" H 7800 6275 60  0000 C CNN
+F 3 "" H 7800 6275 60  0000 C CNN
+	1    7800 6275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 6200 7800 6275
 $EndSCHEMATC
