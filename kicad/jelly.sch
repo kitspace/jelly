@@ -62,7 +62,7 @@ U 1 1 57C0D38C
 P 1325 1725
 F 0 "BT1" H 1325 1925 50  0000 C CNN
 F 1 "BATTERY" H 1325 1535 50  0000 C CNN
-F 2 "KiCad/Pin_Headers.pretty:Pin_Header_Straight_1x02" H 1325 1725 29  0001 C CNN
+F 2 "custom:Pin_Header_Straight_1x02" H 1325 1725 29  0001 C CNN
 F 3 "~" H 1325 1725 60  0000 C CNN
 	1    1325 1725
 	0    1    1    0   
@@ -753,7 +753,7 @@ U 1 1 57EC3ACD
 P 2225 2000
 F 0 "SW1" V 2271 1922 50  0000 R CNN
 F 1 "SPST" V 2180 1922 50  0000 R CNN
-F 2 "KiCad/Pin_Headers.pretty:Pin_Header_Straight_1x02" H 2225 2000 50  0001 C CNN
+F 2 "custom:Pin_Header_Straight_1x02" H 2225 2000 50  0001 C CNN
 F 3 "" H 2225 2000 50  0000 C CNN
 	1    2225 2000
 	0    -1   -1   0   
@@ -862,6 +862,28 @@ F 1 "pager_motor_image2" H 9850 5800 60  0000 C CNN
 F 2 "custom:page_motor_image_flipped" H 9850 5700 60  0001 C CNN
 F 3 "" H 9850 5700 60  0001 C CNN
 	1    9850 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L placeholder DNP12
+U 1 1 5802B04C
+P 10600 5625
+F 0 "DNP12" H 10600 5775 60  0000 C CNN
+F 1 "plus1" H 10600 5875 60  0000 C CNN
+F 2 "custom:plus" H 10600 5775 60  0001 C CNN
+F 3 "" H 10600 5775 60  0001 C CNN
+	1    10600 5625
+	1    0    0    -1  
+$EndComp
+$Comp
+L placeholder DNP13
+U 1 1 5802B75C
+P 10900 5700
+F 0 "DNP13" H 10900 5850 60  0000 C CNN
+F 1 "minus1" H 10900 5950 60  0000 C CNN
+F 2 "custom:minus" H 10900 5850 60  0001 C CNN
+F 3 "" H 10900 5850 60  0001 C CNN
+	1    10900 5700
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
