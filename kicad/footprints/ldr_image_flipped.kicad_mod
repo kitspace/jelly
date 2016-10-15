@@ -1,4 +1,4 @@
-(module svg2mod (layer F.Cu) (tedit 5802813A)
+(module svg2mod (layer F.Cu) (tedit 5802A474)
   (attr smd)
   (descr "Imported from drawings/ldr_image.svg")
   (tags svg2mod)
