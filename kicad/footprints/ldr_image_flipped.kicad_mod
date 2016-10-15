@@ -2,10 +2,10 @@
   (attr smd)
   (descr "Imported from drawings/ldr_image.svg")
   (tags svg2mod)
-  (fp_text reference svg2mod (at 0 -4.53133333333) (layer F.SilkS) hide
+  (fp_text reference svg2mod (at 0 -4.53133333333) (layer B.SilkS) hide
     (effects (font (size 1.524 1.524) (thickness 0.3048)))
   )
-  (fp_text value G*** (at 0 4.53133333333) (layer F.SilkS) hide
+  (fp_text value G*** (at 0 4.53133333333) (layer B.SilkS) hide
     (effects (font (size 1.524 1.524) (thickness 0.3048)))
   )
   (fp_poly
@@ -1612,7 +1612,7 @@
       (xy 2.05574026667 -1.48125013333)
       (xy 2.0286576 -1.48333333333)
     )
-    (layer F.SilkS)
+    (layer B.SilkS)
     (width 0.0)
   )
   (fp_poly
@@ -1705,7 +1705,7 @@
       (xy -0.483469808871 -0.381497266392)
       (xy -0.6307408 -0.382740266667)
     )
-    (layer F.SilkS)
+    (layer B.SilkS)
     (width 0.0)
   )
 )
