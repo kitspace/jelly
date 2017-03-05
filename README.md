@@ -13,4 +13,5 @@ You can buy most of the parts through the [kitnic.it page](https://kitnic.it/boa
 - pager vibration motors
 - tilt switches
 - toothbrush heads
+- cable ties
 
