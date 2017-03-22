@@ -1,6 +1,6 @@
 # Light-following Jellyfish Bristlebot
 
-*This is not tested yet, give me a minute, geez!*
+Update: I built one of these and it "works" but it seems to be more afraid of the light rather than following it. The tilt switch circuit does not seem to work and I will have to debug this. 
 
 This is a small light following robot that consists of a simple analog circuit and uses pager vibration motors and toothbrush heads as a form of locomotion. 
 This was heavily inspired by [Facelessloser's project](https://facelesstech.wordpress.com/2016/08/15/light-following-bristle-bot/) but adds:
