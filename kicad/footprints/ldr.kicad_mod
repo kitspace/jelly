@@ -1,14 +1,14 @@
-(module ldr (layer F.Cu) (tedit 5802A55A)
+(module custom:ldr (layer F.Cu) (tedit 59270B09)
   (descr "Resistance verticale")
   (tags R)
-  (fp_text reference PHOTO1 (at 2.81 2.87) (layer F.SilkS) hide
+  (fp_text reference PHOTO2 (at 2.81 2.87) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value Photores (at -0.05 -1.78) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_arc (start -0.87 -0.02) (end -2.14 1.25) (angle 90) (layer B.SilkS) (width 0.15))
   (fp_arc (start 1.02 -0.04) (end 2.29 -1.31) (angle 90) (layer B.SilkS) (width 0.15))
-  (pad 1 thru_hole circle (at -1.27 0) (size 1.397 1.397) (drill 0.8128) (layers *.Cu *.Mask))
-  (pad 2 thru_hole circle (at 1.27 0) (size 1.397 1.397) (drill 0.8128) (layers *.Cu *.Mask))
+  (fp_arc (start -0.87 -0.02) (end -2.14 1.25) (angle 90) (layer B.SilkS) (width 0.15))
+  (pad 2 thru_hole circle (at 1.27 0) (size 2 2) (drill 0.8128) (layers *.Cu *.Mask))
+  (pad 1 thru_hole circle (at -1.27 0) (size 2 2) (drill 0.8128) (layers *.Cu *.Mask))
 )
