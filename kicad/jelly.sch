@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:jelly-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -507,7 +508,7 @@ F 3 "" H 8325 3075 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L POT RV1
+L POT-RESCUE-jelly RV1
 U 1 1 57EC1656
 P 4950 3425
 F 0 "RV1" V 4904 3348 50  0000 R CNN
@@ -530,7 +531,7 @@ F 3 "" H 5175 3500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L POT RV2
+L POT-RESCUE-jelly RV2
 U 1 1 57EC1E40
 P 8000 3400
 F 0 "RV2" V 7954 3323 50  0000 R CNN
