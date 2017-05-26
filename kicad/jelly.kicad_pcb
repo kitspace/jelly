@@ -1,12 +1,12 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.6-e0-6349~53~ubuntu16.04.1)
+(kicad_pcb (version 20170123) (host pcbnew no-vcs-found-38c8470~58~ubuntu16.04.1)
 
   (general
     (links 37)
     (no_connects 37)
-    (area 114.750143 58.500544 185.867001 101.651856)
+    (area 114.597743 58.546264 185.867001 101.697576)
     (thickness 1.6)
     (drawings 0)
-    (tracks 0)
+    (tracks 2)
     (zones 0)
     (modules 47)
     (nets 18)
@@ -76,7 +76,6 @@
       (hpglpennumber 1)
       (hpglpenspeed 20)
       (hpglpendiameter 15)
-      (hpglpenoverlay 2)
       (psnegative false)
       (psa4output false)
       (plotreference true)
@@ -9358,7 +9357,7 @@
     (descr "Through hole pin header")
     (tags "pin header")
     (path /57C0D39E)
-    (fp_text reference SW1 (at -2.89 -0.22 360) (layer B.SilkS)
+    (fp_text reference SW1 (at -2.89 -0.22) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value SWITCH_INV (at 0 4 90) (layer B.Fab)
@@ -11651,7 +11650,7 @@
     (descr "LED 5mm round vertical")
     (tags "LED 5mm round vertical")
     (path /57C0D3A3)
-    (fp_text reference LED1 (at -2 -0.01 360) (layer F.SilkS)
+    (fp_text reference LED1 (at -2 -0.01) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.524 -3.937 270) (layer F.Fab) hide
@@ -11681,7 +11680,7 @@
     (descr "LED 5mm round vertical")
     (tags "LED 5mm round vertical")
     (path /57C0D39F)
-    (fp_text reference LED2 (at -2.02 -0.08 360) (layer F.SilkS)
+    (fp_text reference LED2 (at -2.02 -0.08) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.524 -3.937 270) (layer F.Fab) hide
@@ -12417,6 +12416,9 @@
       (net 1 VCC))
   )
 
+  (segment (start 142.593 75.783) (end 138.013 75.783) (width 0.4) (layer F.Cu) (net 7))
+  (segment (start 138.013 75.783) (end 137.053 74.823) (width 0.4) (layer F.Cu) (net 7))
+
   (zone (net 5) (net_name GND) (layer B.Cu) (tstamp 0) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
@@ -12427,7 +12429,8 @@
       )
     )
     (polygon
-      (pts        (xy 170.053 87.323) (xy 170.053 89.823) (xy 180.053 89.823) (xy 180.053 87.323)
+      (pts
+        (xy 170.053 87.323) (xy 170.053 89.823) (xy 180.053 89.823) (xy 180.053 87.323)
       )
     )
   )
