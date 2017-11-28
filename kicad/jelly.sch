@@ -2,8 +2,12 @@ EESchema Schematic File Version 2
 LIBS:jelly-rescue
 LIBS:power
 LIBS:device
+LIBS:transistors
+LIBS:conn
 LIBS:linear
 LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
@@ -18,13 +22,157 @@ LIBS:audio
 LIBS:interface
 LIBS:digital-audio
 LIBS:philips
+LIBS:display
 LIBS:cypress
 LIBS:siliconi
 LIBS:opto
 LIBS:atmel
 LIBS:contrib
+LIBS:valves
 LIBS:placeholder
 LIBS:ldr
+LIBS:Slide_Switches
+LIBS:Accessories
+LIBS:Addressable_Specialty
+LIBS:Alarms_Buzzers_and_Sirens
+LIBS:Balun
+LIBS:Barrel-Audio_Connectors
+LIBS:Capacitive_Touch_Sensors_Proximity_Sensor_ICs
+LIBS:Clock-Timing-Clock_Generators_PLLs_Frequency_Synthesizers
+LIBS:Clock-Timing-Programmable_Timers_and_Oscillators
+LIBS:Clock-Timing-Real_Time_Clocks
+LIBS:Coaxial_Connectors_(RF)
+LIBS:Current_Transducers
+LIBS:Data_Acquisition-ADCs-DACs-Special_Purpose
+LIBS:Data_Acquisition-Analog_to_Digital_Converters_(ADC)
+LIBS:Data_Acquisition-Digital_Potentiometers
+LIBS:Data_Acquisition-Digital_to_Analog_Converters_(DAC)
+LIBS:Data_Acquisition-Touch_Screen_Controllers
+LIBS:DC_DC_Converters
+LIBS:Digital_Isolators
+LIBS:Diodes-Bridge_Rectifiers
+LIBS:Diodes-Rectifiers-Arrays
+LIBS:Diodes-Rectifiers-Single
+LIBS:Diodes-Zener-Single
+LIBS:Display_Modules-LED_Character_and_Numeric
+LIBS:D-Sub_Connectors
+LIBS:Embedded-Microcontrollers
+LIBS:Encoders
+LIBS:Evaluation_Boards-Embedded-MCU_DSP
+LIBS:Evaluation_Boards-Sensors
+LIBS:Ferrite_Beads_and_Chips
+LIBS:Fixed_Inductors
+LIBS:Fuses
+LIBS:Gas_Sensors
+LIBS:Humidity_Moisture_Sensors
+LIBS:Image_Sensors_Camera
+LIBS:Infrared_UV_Visible_Emitters
+LIBS:Inrush_Current_Limiters_(ICL)
+LIBS:Interface-Analog_Switches_Multiplexers_Demultiplexers
+LIBS:Interface-Analog_Switches-Special_Purpose
+LIBS:Interface-Controllers
+LIBS:Interface-Drivers_Receivers_Transceivers
+LIBS:Interface-I-O_Expanders
+LIBS:Interface-Modules
+LIBS:Interface-Sensor_and_Detector_Interfaces
+LIBS:Interface-Specialized
+LIBS:LED_Indication-Discrete
+LIBS:LEDs-Circuit_Board_Indicators_Arrays_Light_Bars_Bar_Graphs
+LIBS:Linear-Amplifiers-Audio
+LIBS:Linear-Amplifiers-Instrumentation_OP_Amps_Buffer_Amps
+LIBS:Linear-Comparators
+LIBS:Logic-Buffers_Drivers_Receivers_Transceivers
+LIBS:Logic-Flip_Flops
+LIBS:Logic-Gates_and_Inverters
+LIBS:Logic-Multivibrators
+LIBS:Logic-Shift_Registers
+LIBS:Logic-Signal_Switches_Multiplexers_Decoders
+LIBS:Logic-Translators_Level_Shifters
+LIBS:Magnetic_Sensors-Compass_Magnetic_Field_(Modules)
+LIBS:Magnetic_Sensors-Linear_Compass_(ICs)
+LIBS:Magnetic_Sensors-Switches_(Solid_State)
+LIBS:Memory
+LIBS:Memory_Connectors-PC_Card_Sockets
+LIBS:Microphones
+LIBS:Modular_Connectors-Jacks
+LIBS:Modular_Connectors-Jacks_With_Magnetics
+LIBS:Motion_Sensors-Accelerometers
+LIBS:Motion_Sensors-IMUs_(Inertial_Measurement_Units)
+LIBS:Motion_Sensors-Tilt_Switches
+LIBS:Navigation_Switches_Joystick
+LIBS:Optical_Sensors-Ambient_Light_IR_UV_Sensors
+LIBS:Optical_Sensors-Photo_Detectors-Remote_Receiver
+LIBS:Optical_Sensors-Photodiodes
+LIBS:Optical_Sensors-Photointerrupters-Slot_Type-Logic_Output
+LIBS:Optical_Sensors-Phototransistors
+LIBS:Optical_Sensors-Reflective-Analog_Output
+LIBS:Optoisolators-Logic_Output
+LIBS:Optoisolators-Transistor_Photovoltaic_Output
+LIBS:Optoisolators-Triac_SCR_Output
+LIBS:Oscillators
+LIBS:PMIC-AC_DC_Converters_Offline_Switchers
+LIBS:PMIC-Battery_Chargers
+LIBS:PMIC-Battery_Management
+LIBS:PMIC-Current_Regulation-Management
+LIBS:PMIC-Full_Half-Bridge_Drivers
+LIBS:PMIC-Gate_Drivers
+LIBS:PMIC-LED_Drivers
+LIBS:PMIC-Motor_Drivers_Controllers
+LIBS:PMIC-OR_Controllers_Ideal_Diodes
+LIBS:PMIC-Power_Distribution_Switches_Load_Drivers
+LIBS:PMIC-Power_Management-Specialized
+LIBS:PMIC-RMS_to_DC_Converters
+LIBS:PMIC-Supervisors
+LIBS:PMIC-Thermal_Management
+LIBS:PMIC-V-F_and_F-V_Converters
+LIBS:PMIC-Voltage_Reference
+LIBS:PMIC-Voltage_Regulators-DC_DC_Switching_Controllers
+LIBS:PMIC-Voltage_Regulators-DC_DC_Switching_Regulators
+LIBS:PMIC-Voltage_Regulators-Linear
+LIBS:PMIC-Voltage_Regulators-Special_Purpose
+LIBS:Power_Relays_Over_2_Amps
+LIBS:Pressure_Sensors_Transducers
+LIBS:Programmable_Oscillators
+LIBS:Pushbutton_Switches
+LIBS:Rectangular_Connectors-Headers_Male_Pins
+LIBS:Resistor_Networks_Arrays
+LIBS:RF_Amplifiers
+LIBS:RF_Antennas
+LIBS:RF_Demodulators
+LIBS:RF_Detectors
+LIBS:RF_Evaluation_and_Development_Kits_Boards
+LIBS:RFID_RF_Access_Monitoring_ICs
+LIBS:RF_Receivers
+LIBS:RF_Switches
+LIBS:RF_Transceiver_ICs
+LIBS:RF_Transceiver_Modules
+LIBS:RF_Transmitters
+LIBS:Rotary_Potentiometers_Rheostats
+LIBS:Signal_Relays_Up_to_2_Amps
+LIBS:Sockets_for_ICs_Transistors
+LIBS:Solid_State_Relays
+LIBS:Specialized_ICs
+LIBS:Specialized_Sensors
+LIBS:Surge_Suppression_ICs
+LIBS:Tactile_Switches
+LIBS:Temperature_Sensors-Analog_and_Digital_Output
+LIBS:Thermal_Cutoffs_(Thermal_Fuses)
+LIBS:Thyristors-DIACs_SIDACs
+LIBS:Thyristors-SCRs
+LIBS:Thyristors-TRIACs
+LIBS:Toggle_Switches
+LIBS:Transistors-Bipolar_(BJT)-Arrays
+LIBS:Transistors-Bipolar_(BJT)-RF
+LIBS:Transistors-Bipolar_(BJT)-Single
+LIBS:Transistors-Bipolar_(BJT)-Single_Pre-Biased
+LIBS:Transistors-FETs_MOSFETs-Arrays
+LIBS:Transistors-FETs_MOSFETs-RF
+LIBS:Transistors-FETs_MOSFETs-Single
+LIBS:Transistors-JFETs
+LIBS:Trimmer_Potentiometers
+LIBS:TVS-Diodes
+LIBS:TVS-Mixed_Technology
+LIBS:USB_DVI_HDMI_Connectors
 LIBS:jelly-cache
 EELAYER 25 0
 EELAYER END
@@ -54,23 +202,23 @@ $EndComp
 $Comp
 L BATTERY BT1
 U 1 1 57C0D38C
-P 1325 2650
-F 0 "BT1" H 1325 2850 50  0000 C CNN
-F 1 "BATTERY" H 1325 2460 50  0000 C CNN
-F 2 "custom:Pin_Header_Straight_1x02" H 1325 2650 29  0001 C CNN
-F 3 "~" H 1325 2650 60  0000 C CNN
-	1    1325 2650
+P 1325 2450
+F 0 "BT1" H 1325 2650 50  0000 C CNN
+F 1 "BATTERY" H 1325 2260 50  0000 C CNN
+F 2 "KiCad/Connectors_JST.pretty:JST_PH_S2B-PH-K_02x2.00mm_Angled" H 1325 2450 29  0001 C CNN
+F 3 "~" H 1325 2450 60  0000 C CNN
+	1    1325 2450
 	0    1    1    0   
 $EndComp
 $Comp
 L GND-RESCUE-bristle_bot #PWR01
 U 1 1 57C0D38E
-P 1325 3375
-F 0 "#PWR01" H 1325 3375 30  0001 C CNN
-F 1 "GND" H 1325 3305 30  0001 C CNN
-F 2 "" H 1325 3375 60  0000 C CNN
-F 3 "" H 1325 3375 60  0000 C CNN
-	1    1325 3375
+P 1325 3175
+F 0 "#PWR01" H 1325 3175 30  0001 C CNN
+F 1 "GND" H 1325 3105 30  0001 C CNN
+F 2 "" H 1325 3175 60  0000 C CNN
+F 3 "" H 1325 3175 60  0000 C CNN
+	1    1325 3175
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -87,12 +235,12 @@ $EndComp
 $Comp
 L VCC #PWR02
 U 1 1 57C0D391
-P 1325 825
-F 0 "#PWR02" H 1325 925 30  0001 C CNN
-F 1 "VCC" H 1325 925 30  0000 C CNN
-F 2 "" H 1325 825 60  0001 C CNN
-F 3 "" H 1325 825 60  0000 C CNN
-	1    1325 825 
+P 2300 1725
+F 0 "#PWR02" H 2300 1825 30  0001 C CNN
+F 1 "VCC" H 2300 1825 30  0000 C CNN
+F 2 "" H 2300 1725 60  0001 C CNN
+F 3 "" H 2300 1725 60  0000 C CNN
+	1    2300 1725
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -163,10 +311,10 @@ F 4 "2112111" H 8925 1675 60  0001 C CNN "Farnell"
 	-1   0    0    1   
 $EndComp
 $Comp
-L R-RESCUE-bristle_bot R4
+L R-RESCUE-bristle_bot R2
 U 1 1 57C0D3A0
 P 9500 1675
-F 0 "R4" V 9580 1675 40  0000 C CNN
+F 0 "R2" V 9580 1675 40  0000 C CNN
 F 1 "120Ω" V 9507 1676 40  0000 C CNN
 F 2 "custom:R3-5" V 9430 1675 30  0001 C CNN
 F 3 "~" H 9500 1675 30  0000 C CNN
@@ -185,10 +333,10 @@ F 3 "" H 9800 1675 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R-RESCUE-bristle_bot R2
+L R-RESCUE-bristle_bot R1
 U 1 1 57C0D3A2
 P 6500 1775
-F 0 "R2" V 6580 1775 40  0000 C CNN
+F 0 "R1" V 6580 1775 40  0000 C CNN
 F 1 "120Ω" V 6507 1776 40  0000 C CNN
 F 2 "custom:R3-5" V 6430 1775 30  0001 C CNN
 F 3 "~" H 6500 1775 30  0000 C CNN
@@ -637,12 +785,12 @@ Wire Wire Line
 Wire Wire Line
 	8225 2475 8225 2550
 $Comp
-L Q_NMOS_SGD Q3
+L Q_NMOS_SGD Q1
 U 1 1 57EC8910
 P 5250 1975
-F 0 "Q3" H 5441 2021 50  0000 L CNN
+F 0 "Q1" H 5441 2021 50  0000 L CNN
 F 1 "Q_NMOS_SGD" H 5441 1930 50  0000 L CNN
-F 2 "KiCad/TO_SOT_Packages_THT.pretty:TO-92_Rugged" H 5450 2075 50  0001 C CNN
+F 2 "KiCad/kicad-footprints/Package_TO_SOT_THT.pretty:TO-92_Inline_Narrow_Oval" H 5450 2075 50  0001 C CNN
 F 3 "" H 5250 1975 50  0000 C CNN
 F 4 "9845178" H 5250 1975 60  0001 C CNN "Farnell"
 	1    5250 1975
@@ -654,7 +802,7 @@ U 1 1 57ECA7DE
 P 8225 1875
 F 0 "Q2" H 8416 1921 50  0000 L CNN
 F 1 "Q_NMOS_SGD" H 8416 1830 50  0000 L CNN
-F 2 "KiCad/TO_SOT_Packages_THT.pretty:TO-92_Rugged" H 8425 1975 50  0001 C CNN
+F 2 "KiCad/kicad-footprints/Package_TO_SOT_THT.pretty:TO-92_Inline_Narrow_Oval" H 8425 1975 50  0001 C CNN
 F 3 "" H 8225 1875 50  0000 C CNN
 	1    8225 1875
 	1    0    0    -1  
@@ -662,17 +810,6 @@ $EndComp
 Wire Wire Line
 	8300 1675 8725 1675
 Connection ~ 8325 1675
-$Comp
-L SPST SW1
-U 1 1 57EC3ACD
-P 1325 1575
-F 0 "SW1" V 1371 1497 50  0000 R CNN
-F 1 "SPST" V 1280 1497 50  0000 R CNN
-F 2 "monostable/CommonPartsLibrary.pretty:SW_1825289-1" H 1325 1575 50  0001 C CNN
-F 3 "" H 1325 1575 50  0000 C CNN
-	1    1325 1575
-	0    -1   -1   0   
-$EndComp
 $Comp
 L GND-RESCUE-bristle_bot #PWR016
 U 1 1 57F92FC8
@@ -731,28 +868,6 @@ F 3 "" H 9675 5450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L placeholder DNP8
-U 1 1 58028EEE
-P 10200 5300
-F 0 "DNP8" H 10200 5450 60  0000 C CNN
-F 1 "resistor_R3" H 10200 5550 60  0000 C CNN
-F 2 "custom:resistor" H 10200 5450 60  0001 C CNN
-F 3 "" H 10200 5450 60  0001 C CNN
-	1    10200 5300
-	1    0    0    -1  
-$EndComp
-$Comp
-L placeholder DNP9
-U 1 1 58029990
-P 10750 5300
-F 0 "DNP9" H 10750 5450 60  0000 C CNN
-F 1 "resistor_R4" H 10750 5550 60  0000 C CNN
-F 2 "custom:resistor" H 10750 5450 60  0001 C CNN
-F 3 "" H 10750 5450 60  0001 C CNN
-	1    10750 5300
-	1    0    0    -1  
-$EndComp
-$Comp
 L placeholder DNP10
 U 1 1 5802A5F3
 P 3525 7300
@@ -808,7 +923,7 @@ F 3 "" H 6075 7525 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1325 2950 1325 3375
+	1325 2750 1325 3175
 Wire Wire Line
 	5350 2175 5350 3100
 Wire Wire Line
@@ -819,7 +934,30 @@ Connection ~ 6975 3100
 Wire Wire Line
 	6975 3100 6975 3275
 Wire Wire Line
-	1325 2075 1325 2350
+	1325 1875 1325 2150
 Wire Wire Line
-	1325 1075 1325 825 
+	2300 1975 2300 1725
+$Comp
+L JS202011SCQN S?1
+U 1 1 5A1C8976
+P 1625 1475
+F 0 "S?1" H 1175 1725 60  0000 C CNN
+F 1 "JS202011SCQN" H 2500 1650 60  0000 C CNN
+F 2 "digikey/digikey-kicad-library/digikey-footprints.pretty:401-2002-1-ND" H 1825 1675 60  0001 L CNN
+F 3 "http://www.ckswitches.com/media/1422/js.pdf" H 1825 1775 60  0001 L CNN
+F 4 "401-2002-1-ND" H 1825 1875 60  0001 L CNN "Digi-Key_PN"
+F 5 "JS202011SCQN" H 1825 1975 60  0001 L CNN "MPN"
+F 6 "Switches" H 1825 2075 60  0001 L CNN "Category"
+F 7 "Slide Switches" H 1825 2175 60  0001 L CNN "Family"
+F 8 "http://www.ckswitches.com/media/1422/js.pdf" H 1825 2275 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/c-k/JS202011SCQN/401-2002-1-ND/1640098" H 1825 2375 60  0001 L CNN "DK_Detail_Page"
+F 10 "SWITCH SLIDE DPDT 300MA 6V" H 1825 2475 60  0001 L CNN "Description"
+F 11 "C&K" H 1825 2575 60  0001 L CNN "Manufacturer"
+	1    1625 1475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1625 1875 1625 1975
+Wire Wire Line
+	1625 1975 2300 1975
 $EndSCHEMATC
