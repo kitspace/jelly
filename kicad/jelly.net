@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/kaspar/projects/jelly/hardware/kicad/jelly.sch)
-    (date "Tue 28 Nov 2017 19:01:05 GMT")
+    (date "Tue 28 Nov 2017 22:15:59 GMT")
     (tool "Eeschema 4.0.7-e2-6376~58~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -256,7 +256,19 @@
       (footprint custom:jelly_mirrored)
       (libsource (lib placeholder) (part placeholder))
       (sheetpath (names /) (tstamps /))
-      (tstamp 5A1DB18D)))
+      (tstamp 5A1DB18D))
+    (comp (ref DNP10)
+      (value pager_motor_image1)
+      (footprint custom:page_motor_image)
+      (libsource (lib placeholder) (part placeholder))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5802A5F3))
+    (comp (ref DNP11)
+      (value pager_motor_image2)
+      (footprint custom:page_motor_image_flipped)
+      (libsource (lib placeholder) (part placeholder))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5802A756)))
   (libparts
     (libpart (lib jelly-cache) (part BATTERY)
       (fields

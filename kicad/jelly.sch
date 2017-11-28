@@ -930,4 +930,26 @@ F 3 "" H 7775 6225 60  0001 C CNN
 	1    7775 6075
 	1    0    0    -1  
 $EndComp
+$Comp
+L placeholder DNP10
+U 1 1 5802A5F3
+P 3525 7300
+F 0 "DNP10" H 3525 7450 60  0000 C CNN
+F 1 "pager_motor_image1" H 3525 7550 60  0000 C CNN
+F 2 "custom:page_motor_image" H 3525 7450 60  0001 C CNN
+F 3 "" H 3525 7450 60  0001 C CNN
+	1    3525 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L placeholder DNP11
+U 1 1 5802A756
+P 4525 7325
+F 0 "DNP11" H 4525 7475 60  0000 C CNN
+F 1 "pager_motor_image2" H 4525 7575 60  0000 C CNN
+F 2 "custom:page_motor_image_flipped" H 4525 7475 60  0001 C CNN
+F 3 "" H 4525 7475 60  0001 C CNN
+	1    4525 7325
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
