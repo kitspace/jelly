@@ -235,12 +235,12 @@ $EndComp
 $Comp
 L VCC #PWR02
 U 1 1 57C0D391
-P 2300 1725
-F 0 "#PWR02" H 2300 1825 30  0001 C CNN
-F 1 "VCC" H 2300 1825 30  0000 C CNN
-F 2 "" H 2300 1725 60  0001 C CNN
-F 3 "" H 2300 1725 60  0000 C CNN
-	1    2300 1725
+P 2225 850
+F 0 "#PWR02" H 2225 950 30  0001 C CNN
+F 1 "VCC" H 2225 950 30  0000 C CNN
+F 2 "" H 2225 850 60  0001 C CNN
+F 3 "" H 2225 850 60  0000 C CNN
+	1    2225 850 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -684,6 +684,158 @@ F 3 "" H 8225 2550 50  0000 C CNN
 	1    8225 2550
 	1    0    0    -1  
 $EndComp
+$Comp
+L Q_NMOS_SGD Q1
+U 1 1 57EC8910
+P 5250 1975
+F 0 "Q1" H 5441 2021 50  0000 L CNN
+F 1 "Q_NMOS_SGD" H 5441 1930 50  0000 L CNN
+F 2 "KiCad/kicad-footprints/Package_TO_SOT_THT.pretty:TO-92_Inline_Narrow_Oval" H 5450 2075 50  0001 C CNN
+F 3 "" H 5250 1975 50  0000 C CNN
+F 4 "9845178" H 5250 1975 60  0001 C CNN "Farnell"
+	1    5250 1975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Q_NMOS_SGD Q2
+U 1 1 57ECA7DE
+P 8225 1875
+F 0 "Q2" H 8416 1921 50  0000 L CNN
+F 1 "Q_NMOS_SGD" H 8416 1830 50  0000 L CNN
+F 2 "KiCad/kicad-footprints/Package_TO_SOT_THT.pretty:TO-92_Inline_Narrow_Oval" H 8425 1975 50  0001 C CNN
+F 3 "" H 8225 1875 50  0000 C CNN
+	1    8225 1875
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND-RESCUE-bristle_bot #PWR016
+U 1 1 57F92FC8
+P 2600 7375
+F 0 "#PWR016" H 2600 7375 30  0001 C CNN
+F 1 "GND" H 2600 7305 30  0001 C CNN
+F 2 "" H 2600 7375 60  0000 C CNN
+F 3 "" H 2600 7375 60  0000 C CNN
+	1    2600 7375
+	1    0    0    -1  
+$EndComp
+$Comp
+L placeholder DNP4
+U 1 1 580214C3
+P 9175 5725
+F 0 "DNP4" H 9175 5875 60  0000 C CNN
+F 1 "logo" H 9175 5975 60  0000 C CNN
+F 2 "custom:logo" H 9175 5875 60  0001 C CNN
+F 3 "" H 9175 5875 60  0001 C CNN
+	1    9175 5725
+	1    0    0    -1  
+$EndComp
+$Comp
+L placeholder DNP5
+U 1 1 5802487F
+P 7425 5700
+F 0 "DNP5" H 7425 5850 60  0000 C CNN
+F 1 "name" H 7425 5950 60  0000 C CNN
+F 2 "custom:name" H 7425 5850 60  0001 C CNN
+F 3 "" H 7425 5850 60  0001 C CNN
+	1    7425 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L placeholder DNP6
+U 1 1 58028D21
+P 9125 5300
+F 0 "DNP6" H 9125 5450 60  0000 C CNN
+F 1 "resistor_R1" H 9125 5550 60  0000 C CNN
+F 2 "custom:resistor" H 9125 5450 60  0001 C CNN
+F 3 "" H 9125 5450 60  0001 C CNN
+	1    9125 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L placeholder DNP7
+U 1 1 58028E57
+P 9675 5300
+F 0 "DNP7" H 9675 5450 60  0000 C CNN
+F 1 "resistor_R2" H 9675 5550 60  0000 C CNN
+F 2 "custom:resistor" H 9675 5450 60  0001 C CNN
+F 3 "" H 9675 5450 60  0001 C CNN
+	1    9675 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L placeholder DNP10
+U 1 1 5802A5F3
+P 3525 7300
+F 0 "DNP10" H 3525 7450 60  0000 C CNN
+F 1 "pager_motor_image1" H 3525 7550 60  0000 C CNN
+F 2 "custom:page_motor_image" H 3525 7450 60  0001 C CNN
+F 3 "" H 3525 7450 60  0001 C CNN
+	1    3525 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L placeholder DNP11
+U 1 1 5802A756
+P 4525 7325
+F 0 "DNP11" H 4525 7475 60  0000 C CNN
+F 1 "pager_motor_image2" H 4525 7575 60  0000 C CNN
+F 2 "custom:page_motor_image_flipped" H 4525 7475 60  0001 C CNN
+F 3 "" H 4525 7475 60  0001 C CNN
+	1    4525 7325
+	1    0    0    -1  
+$EndComp
+$Comp
+L placeholder DNP12
+U 1 1 5802B04C
+P 5225 7325
+F 0 "DNP12" H 5225 7475 60  0000 C CNN
+F 1 "plus1" H 5225 7575 60  0000 C CNN
+F 2 "custom:plus" H 5225 7475 60  0001 C CNN
+F 3 "" H 5225 7475 60  0001 C CNN
+	1    5225 7325
+	1    0    0    -1  
+$EndComp
+$Comp
+L placeholder DNP13
+U 1 1 5802B75C
+P 5675 7325
+F 0 "DNP13" H 5675 7475 60  0000 C CNN
+F 1 "minus1" H 5675 7575 60  0000 C CNN
+F 2 "custom:minus" H 5675 7475 60  0001 C CNN
+F 3 "" H 5675 7475 60  0001 C CNN
+	1    5675 7325
+	1    0    0    -1  
+$EndComp
+$Comp
+L placeholder DNP15
+U 1 1 5803B7B0
+P 6075 7375
+F 0 "DNP15" H 6075 7525 60  0000 C CNN
+F 1 "cc-logo" H 6075 7625 60  0000 C CNN
+F 2 "custom:cc_by_logo" H 6075 7525 60  0001 C CNN
+F 3 "" H 6075 7525 60  0001 C CNN
+	1    6075 7375
+	1    0    0    -1  
+$EndComp
+$Comp
+L JS202011SCQN S?1
+U 1 1 5A1C8976
+P 1625 1475
+F 0 "S?1" H 1175 1725 60  0000 C CNN
+F 1 "JS202011SCQN" H 2600 1500 60  0000 C CNN
+F 2 "digikey/digikey-kicad-library/digikey-footprints.pretty:401-2002-1-ND" H 1825 1675 60  0001 L CNN
+F 3 "http://www.ckswitches.com/media/1422/js.pdf" H 1825 1775 60  0001 L CNN
+F 4 "401-2002-1-ND" H 1825 1875 60  0001 L CNN "Digi-Key_PN"
+F 5 "JS202011SCQN" H 1825 1975 60  0001 L CNN "MPN"
+F 6 "Switches" H 1825 2075 60  0001 L CNN "Category"
+F 7 "Slide Switches" H 1825 2175 60  0001 L CNN "Family"
+F 8 "http://www.ckswitches.com/media/1422/js.pdf" H 1825 2275 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/c-k/JS202011SCQN/401-2002-1-ND/1640098" H 1825 2375 60  0001 L CNN "DK_Detail_Page"
+F 10 "SWITCH SLIDE DPDT 300MA 6V" H 1825 2475 60  0001 L CNN "Description"
+F 11 "C&K" H 1825 2575 60  0001 L CNN "Manufacturer"
+	1    1625 1475
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	5350 1575 5350 1775
 Wire Wire Line
@@ -784,144 +936,11 @@ Wire Wire Line
 	8150 2475 8225 2475
 Wire Wire Line
 	8225 2475 8225 2550
-$Comp
-L Q_NMOS_SGD Q1
-U 1 1 57EC8910
-P 5250 1975
-F 0 "Q1" H 5441 2021 50  0000 L CNN
-F 1 "Q_NMOS_SGD" H 5441 1930 50  0000 L CNN
-F 2 "KiCad/kicad-footprints/Package_TO_SOT_THT.pretty:TO-92_Inline_Narrow_Oval" H 5450 2075 50  0001 C CNN
-F 3 "" H 5250 1975 50  0000 C CNN
-F 4 "9845178" H 5250 1975 60  0001 C CNN "Farnell"
-	1    5250 1975
-	1    0    0    -1  
-$EndComp
-$Comp
-L Q_NMOS_SGD Q2
-U 1 1 57ECA7DE
-P 8225 1875
-F 0 "Q2" H 8416 1921 50  0000 L CNN
-F 1 "Q_NMOS_SGD" H 8416 1830 50  0000 L CNN
-F 2 "KiCad/kicad-footprints/Package_TO_SOT_THT.pretty:TO-92_Inline_Narrow_Oval" H 8425 1975 50  0001 C CNN
-F 3 "" H 8225 1875 50  0000 C CNN
-	1    8225 1875
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8300 1675 8725 1675
 Connection ~ 8325 1675
-$Comp
-L GND-RESCUE-bristle_bot #PWR016
-U 1 1 57F92FC8
-P 2600 7375
-F 0 "#PWR016" H 2600 7375 30  0001 C CNN
-F 1 "GND" H 2600 7305 30  0001 C CNN
-F 2 "" H 2600 7375 60  0000 C CNN
-F 3 "" H 2600 7375 60  0000 C CNN
-	1    2600 7375
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2600 7300 2600 7375
-$Comp
-L placeholder DNP4
-U 1 1 580214C3
-P 9175 5725
-F 0 "DNP4" H 9175 5875 60  0000 C CNN
-F 1 "logo" H 9175 5975 60  0000 C CNN
-F 2 "custom:logo" H 9175 5875 60  0001 C CNN
-F 3 "" H 9175 5875 60  0001 C CNN
-	1    9175 5725
-	1    0    0    -1  
-$EndComp
-$Comp
-L placeholder DNP5
-U 1 1 5802487F
-P 7425 5700
-F 0 "DNP5" H 7425 5850 60  0000 C CNN
-F 1 "name" H 7425 5950 60  0000 C CNN
-F 2 "custom:name" H 7425 5850 60  0001 C CNN
-F 3 "" H 7425 5850 60  0001 C CNN
-	1    7425 5700
-	1    0    0    -1  
-$EndComp
-$Comp
-L placeholder DNP6
-U 1 1 58028D21
-P 9125 5300
-F 0 "DNP6" H 9125 5450 60  0000 C CNN
-F 1 "resistor_R1" H 9125 5550 60  0000 C CNN
-F 2 "custom:resistor" H 9125 5450 60  0001 C CNN
-F 3 "" H 9125 5450 60  0001 C CNN
-	1    9125 5300
-	1    0    0    -1  
-$EndComp
-$Comp
-L placeholder DNP7
-U 1 1 58028E57
-P 9675 5300
-F 0 "DNP7" H 9675 5450 60  0000 C CNN
-F 1 "resistor_R2" H 9675 5550 60  0000 C CNN
-F 2 "custom:resistor" H 9675 5450 60  0001 C CNN
-F 3 "" H 9675 5450 60  0001 C CNN
-	1    9675 5300
-	1    0    0    -1  
-$EndComp
-$Comp
-L placeholder DNP10
-U 1 1 5802A5F3
-P 3525 7300
-F 0 "DNP10" H 3525 7450 60  0000 C CNN
-F 1 "pager_motor_image1" H 3525 7550 60  0000 C CNN
-F 2 "custom:page_motor_image" H 3525 7450 60  0001 C CNN
-F 3 "" H 3525 7450 60  0001 C CNN
-	1    3525 7300
-	1    0    0    -1  
-$EndComp
-$Comp
-L placeholder DNP11
-U 1 1 5802A756
-P 4525 7325
-F 0 "DNP11" H 4525 7475 60  0000 C CNN
-F 1 "pager_motor_image2" H 4525 7575 60  0000 C CNN
-F 2 "custom:page_motor_image_flipped" H 4525 7475 60  0001 C CNN
-F 3 "" H 4525 7475 60  0001 C CNN
-	1    4525 7325
-	1    0    0    -1  
-$EndComp
-$Comp
-L placeholder DNP12
-U 1 1 5802B04C
-P 5225 7325
-F 0 "DNP12" H 5225 7475 60  0000 C CNN
-F 1 "plus1" H 5225 7575 60  0000 C CNN
-F 2 "custom:plus" H 5225 7475 60  0001 C CNN
-F 3 "" H 5225 7475 60  0001 C CNN
-	1    5225 7325
-	1    0    0    -1  
-$EndComp
-$Comp
-L placeholder DNP13
-U 1 1 5802B75C
-P 5675 7325
-F 0 "DNP13" H 5675 7475 60  0000 C CNN
-F 1 "minus1" H 5675 7575 60  0000 C CNN
-F 2 "custom:minus" H 5675 7475 60  0001 C CNN
-F 3 "" H 5675 7475 60  0001 C CNN
-	1    5675 7325
-	1    0    0    -1  
-$EndComp
-$Comp
-L placeholder DNP15
-U 1 1 5803B7B0
-P 6075 7375
-F 0 "DNP15" H 6075 7525 60  0000 C CNN
-F 1 "cc-logo" H 6075 7625 60  0000 C CNN
-F 2 "custom:cc_by_logo" H 6075 7525 60  0001 C CNN
-F 3 "" H 6075 7525 60  0001 C CNN
-	1    6075 7375
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1325 2750 1325 3175
 Wire Wire Line
@@ -936,28 +955,23 @@ Wire Wire Line
 Wire Wire Line
 	1325 1875 1325 2150
 Wire Wire Line
-	2300 1975 2300 1725
-$Comp
-L JS202011SCQN S?1
-U 1 1 5A1C8976
-P 1625 1475
-F 0 "S?1" H 1175 1725 60  0000 C CNN
-F 1 "JS202011SCQN" H 2500 1650 60  0000 C CNN
-F 2 "digikey/digikey-kicad-library/digikey-footprints.pretty:401-2002-1-ND" H 1825 1675 60  0001 L CNN
-F 3 "http://www.ckswitches.com/media/1422/js.pdf" H 1825 1775 60  0001 L CNN
-F 4 "401-2002-1-ND" H 1825 1875 60  0001 L CNN "Digi-Key_PN"
-F 5 "JS202011SCQN" H 1825 1975 60  0001 L CNN "MPN"
-F 6 "Switches" H 1825 2075 60  0001 L CNN "Category"
-F 7 "Slide Switches" H 1825 2175 60  0001 L CNN "Family"
-F 8 "http://www.ckswitches.com/media/1422/js.pdf" H 1825 2275 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/c-k/JS202011SCQN/401-2002-1-ND/1640098" H 1825 2375 60  0001 L CNN "DK_Detail_Page"
-F 10 "SWITCH SLIDE DPDT 300MA 6V" H 1825 2475 60  0001 L CNN "Description"
-F 11 "C&K" H 1825 2575 60  0001 L CNN "Manufacturer"
-	1    1625 1475
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
 	1625 1875 1625 1975
 Wire Wire Line
-	1625 1975 2300 1975
+	1625 1975 2225 1975
+Wire Wire Line
+	1625 900  2225 900 
+Wire Wire Line
+	2225 1975 2225 850 
+Wire Wire Line
+	850  1050 1325 1050
+Wire Wire Line
+	850  1050 850  1975
+Wire Wire Line
+	850  1975 1325 1975
+Connection ~ 1325 1975
+Wire Wire Line
+	1325 1050 1325 1075
+Wire Wire Line
+	1625 900  1625 1075
+Connection ~ 2225 900 
 $EndSCHEMATC
