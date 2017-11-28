@@ -823,7 +823,7 @@ U 1 1 5A1C8976
 P 1625 1475
 F 0 "S?1" H 1175 1725 60  0000 C CNN
 F 1 "JS202011SCQN" H 2600 1500 60  0000 C CNN
-F 2 "digikey/digikey-kicad-library/digikey-footprints.pretty:401-2002-1-ND" H 1825 1675 60  0001 L CNN
+F 2 "custom:JS202011SCQN" H 1825 1675 60  0001 L CNN
 F 3 "http://www.ckswitches.com/media/1422/js.pdf" H 1825 1775 60  0001 L CNN
 F 4 "401-2002-1-ND" H 1825 1875 60  0001 L CNN "Digi-Key_PN"
 F 5 "JS202011SCQN" H 1825 1975 60  0001 L CNN "MPN"
@@ -974,4 +974,15 @@ Wire Wire Line
 Wire Wire Line
 	1625 900  1625 1075
 Connection ~ 2225 900 
+$Comp
+L placeholder DNP8
+U 1 1 5A1DB18D
+P 7775 6075
+F 0 "DNP8" H 7775 6225 60  0000 C CNN
+F 1 "jelly_mirrored" H 7775 6325 60  0000 C CNN
+F 2 "custom:jelly_mirrored" H 7775 6225 60  0001 C CNN
+F 3 "" H 7775 6225 60  0001 C CNN
+	1    7775 6075
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

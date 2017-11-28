@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/kaspar/projects/jelly/hardware/kicad/jelly.sch)
-    (date "Tue 28 Nov 2017 16:10:35 GMT")
+    (date "Tue 28 Nov 2017 17:37:34 GMT")
     (tool "Eeschema 4.0.7-e2-6376~58~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -280,7 +280,13 @@
         (field (name Manufacturer) C&K))
       (libsource (lib Slide_Switches) (part JS202011SCQN))
       (sheetpath (names /) (tstamps /))
-      (tstamp 5A1C8976)))
+      (tstamp 5A1C8976))
+    (comp (ref DNP8)
+      (value jelly_mirrored)
+      (footprint custom:jelly_mirrored)
+      (libsource (lib placeholder) (part placeholder))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5A1DB18D)))
   (libparts
     (libpart (lib jelly-cache) (part BATTERY)
       (fields
@@ -395,14 +401,14 @@
   (libraries
     (library (logical jelly-cache)
       (uri /home/kaspar/projects/jelly/hardware/kicad/jelly-cache.lib))
-    (library (logical placeholder)
-      (uri /home/kaspar/projects/jelly/hardware/kicad/symbols/placeholder.lib))
     (library (logical Slide_Switches)
       (uri /home/kaspar/projects/kicad_footprints/digikey/digikey-kicad-library/symbols/Slide_Switches.lib))
-    (library (logical jelly-rescue)
-      (uri /home/kaspar/projects/jelly/hardware/kicad/jelly-rescue.lib))
+    (library (logical placeholder)
+      (uri /home/kaspar/projects/jelly/hardware/kicad/symbols/placeholder.lib))
     (library (logical device)
-      (uri /usr/share/kicad/library/device.lib)))
+      (uri /usr/share/kicad/library/device.lib))
+    (library (logical jelly-rescue)
+      (uri /home/kaspar/projects/jelly/hardware/kicad/jelly-rescue.lib)))
   (nets
     (net (code 1) (name VCC)
       (node (ref M2) (pin 1))
