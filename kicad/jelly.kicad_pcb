@@ -3,7 +3,7 @@
   (general
     (links 38)
     (no_connects 17)
-    (area 116.419143 58.473544 180.412377 101.651856)
+    (area 117.270143 58.473544 184.613858 101.651856)
     (thickness 1.6)
     (drawings 0)
     (tracks 126)
@@ -65,10 +65,10 @@
     (grid_origin 150.053 94.823)
     (visible_elements FFFFEF7F)
     (pcbplotparams
-      (layerselection 0x010f0_80000001)
+      (layerselection 0x01020_00000001)
       (usegerberextensions false)
       (excludeedgelayer true)
-      (linewidth 0.100000)
+      (linewidth 0.020000)
       (plotframeref false)
       (viasonmask false)
       (mode 1)
@@ -83,12 +83,12 @@
       (plotvalue true)
       (plotinvisibletext false)
       (padsonsilk false)
-      (subtractmaskfromsilk true)
-      (outputformat 1)
+      (subtractmaskfromsilk false)
+      (outputformat 4)
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ../gerbers/))
+      (outputdirectory ../instructions/))
   )
 
   (net 0 "")
@@ -1145,10 +1145,10 @@
       (xy -4.199589 -0.16433)) (layer F.SilkS) (width 0))
   )
 
-  (module custom:hole2 (layer F.Cu) (tedit 5803C191) (tstamp 57C5DA60)
+  (module custom:hole2 (layer F.Cu) (tedit 5A1DE674) (tstamp 57C5DA60)
     (at 157.3784 94.2086)
     (path /57C30647)
-    (fp_text reference P11 (at 0 0.5) (layer F.SilkS)
+    (fp_text reference P11 (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value CONN_01X01 (at 0 -0.5) (layer F.Fab)
@@ -1218,10 +1218,10 @@
     )
   )
 
-  (module custom:hole (layer F.Cu) (tedit 5803C191) (tstamp 57C4706B)
+  (module custom:hole (layer F.Cu) (tedit 5A1DE68D) (tstamp 57C4706B)
     (at 133.053 83.323)
     (path /57C22947)
-    (fp_text reference P1 (at 0 0.5) (layer F.SilkS)
+    (fp_text reference P1 (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value CONN_01X01 (at 0 -0.5) (layer F.Fab) hide
@@ -1231,10 +1231,10 @@
       (net 4 GND))
   )
 
-  (module custom:hole (layer F.Cu) (tedit 5803C191) (tstamp 57C47077)
+  (module custom:hole (layer F.Cu) (tedit 5A1DE688) (tstamp 57C47077)
     (at 167.053 83.323)
     (path /57C229B5)
-    (fp_text reference P2 (at 0 0.5) (layer F.SilkS)
+    (fp_text reference P2 (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value CONN_01X01 (at 0 -0.5) (layer F.Fab) hide
@@ -1244,10 +1244,10 @@
       (net 1 VCC))
   )
 
-  (module custom:hole2 (layer F.Cu) (tedit 5803C191) (tstamp 57C5DA24)
+  (module custom:hole2 (layer F.Cu) (tedit 5A1DE67A) (tstamp 57C5DA24)
     (at 165.0746 93.5228)
     (path /57C0D3A9)
-    (fp_text reference P13 (at 0 0.5) (layer F.SilkS)
+    (fp_text reference P13 (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value CONN_01X01 (at 0 -0.5) (layer F.Fab)
@@ -1257,10 +1257,10 @@
       (net 1 VCC))
   )
 
-  (module custom:hole2 (layer F.Cu) (tedit 5803C191) (tstamp 57C5DA30)
+  (module custom:hole2 (layer F.Cu) (tedit 5A1DE670) (tstamp 57C5DA30)
     (at 153.5684 94.4372)
     (path /57C3092B)
-    (fp_text reference P10 (at 0 0.5) (layer F.SilkS)
+    (fp_text reference P10 (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value CONN_01X01 (at 0 -0.5) (layer F.Fab)
@@ -1270,10 +1270,10 @@
       (net 3 Vout2))
   )
 
-  (module custom:hole2 (layer F.Cu) (tedit 5803C191) (tstamp 57C5DA3C)
+  (module custom:hole2 (layer F.Cu) (tedit 5A1DE676) (tstamp 57C5DA3C)
     (at 161.2392 93.7006)
     (path /57C30931)
-    (fp_text reference P12 (at 0 0.5) (layer F.SilkS)
+    (fp_text reference P12 (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value CONN_01X01 (at 0 -0.5) (layer F.Fab)
@@ -1283,10 +1283,10 @@
       (net 3 Vout2))
   )
 
-  (module custom:hole2 (layer F.Cu) (tedit 5803C191) (tstamp 57C5DA48)
+  (module custom:hole2 (layer F.Cu) (tedit 5A1DE665) (tstamp 57C5DA48)
     (at 142.3924 93.853)
     (path /57C0D3AC)
-    (fp_text reference P7 (at 0 0.5) (layer F.SilkS)
+    (fp_text reference P7 (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value CONN_01X01 (at 0 -0.5) (layer F.Fab)
@@ -1296,10 +1296,10 @@
       (net 2 Vout1))
   )
 
-  (module custom:hole2 (layer F.Cu) (tedit 5803C191) (tstamp 57C5DA54)
+  (module custom:hole2 (layer F.Cu) (tedit 5A1DE667) (tstamp 57C5DA54)
     (at 146.2532 94.2086)
     (path /57C0D3A8)
-    (fp_text reference P8 (at 0 0.5) (layer F.SilkS)
+    (fp_text reference P8 (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value CONN_01X01 (at 0 -0.5) (layer F.Fab)
@@ -1309,10 +1309,10 @@
       (net 4 GND))
   )
 
-  (module custom:hole2 (layer F.Cu) (tedit 5803C191) (tstamp 57C5DA6C)
+  (module custom:hole2 (layer F.Cu) (tedit 5A1DE67D) (tstamp 57C5DA6C)
     (at 168.91 93.7514)
     (path /57C0D3AD)
-    (fp_text reference P14 (at 0 0.5) (layer F.SilkS)
+    (fp_text reference P14 (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value CONN_01X01 (at 0 -0.5) (layer F.Fab)
@@ -1322,10 +1322,10 @@
       (net 1 VCC))
   )
 
-  (module custom:hole2 (layer F.Cu) (tedit 5803C191) (tstamp 57C5DA78)
+  (module custom:hole2 (layer F.Cu) (tedit 5A1DE65D) (tstamp 57C5DA78)
     (at 130.8862 94.2086)
     (path /57C0D3A6)
-    (fp_text reference P4 (at 0 0.5) (layer F.SilkS)
+    (fp_text reference P4 (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value CONN_01X01 (at 0 -0.5) (layer F.Fab)
@@ -1335,10 +1335,10 @@
       (net 1 VCC))
   )
 
-  (module custom:hole2 (layer F.Cu) (tedit 5803C191) (tstamp 57C5DA84)
+  (module custom:hole2 (layer F.Cu) (tedit 5A1DE65F) (tstamp 57C5DA84)
     (at 134.747 93.726)
     (path /57C0D3AB)
-    (fp_text reference P5 (at 0 0.5) (layer F.SilkS)
+    (fp_text reference P5 (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value CONN_01X01 (at 0 -0.5) (layer F.Fab)
@@ -1348,10 +1348,10 @@
       (net 2 Vout1))
   )
 
-  (module custom:hole2 (layer F.Cu) (tedit 5803C191) (tstamp 57C5DA90)
+  (module custom:hole2 (layer F.Cu) (tedit 5A1DE67F) (tstamp 57C5DA90)
     (at 172.7708 94.1324)
     (path /57C309DD)
-    (fp_text reference P15 (at 0 0.5) (layer F.SilkS)
+    (fp_text reference P15 (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value CONN_01X01 (at 0 -0.5) (layer F.Fab)
@@ -1361,10 +1361,10 @@
       (net 1 VCC))
   )
 
-  (module custom:hole2 (layer F.Cu) (tedit 5803C191) (tstamp 57C5DA9C)
+  (module custom:hole2 (layer F.Cu) (tedit 5A1DE659) (tstamp 57C5DA9C)
     (at 127.0762 94.5134)
     (path /57C0D3AA)
-    (fp_text reference P3 (at 0 0.5) (layer F.SilkS)
+    (fp_text reference P3 (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value CONN_01X01 (at 0 -0.5) (layer F.Fab)
@@ -1374,10 +1374,10 @@
       (net 1 VCC))
   )
 
-  (module custom:hole2 (layer F.Cu) (tedit 5803C191) (tstamp 57C5DAA8)
+  (module custom:hole2 (layer F.Cu) (tedit 5A1DE66B) (tstamp 57C5DAA8)
     (at 150.0632 94.8182)
     (path /57C30641)
-    (fp_text reference P9 (at 0 0.5) (layer F.SilkS)
+    (fp_text reference P9 (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value CONN_01X01 (at 0 -0.5) (layer F.Fab)
@@ -1387,10 +1387,10 @@
       (net 4 GND))
   )
 
-  (module custom:hole2 (layer F.Cu) (tedit 5803C191) (tstamp 57C5DAB4)
+  (module custom:hole2 (layer F.Cu) (tedit 5A1DE661) (tstamp 57C5DAB4)
     (at 138.5824 93.6244)
     (path /57C0D3A7)
-    (fp_text reference P6 (at 0 0.5) (layer F.SilkS)
+    (fp_text reference P6 (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value CONN_01X01 (at 0 -0.5) (layer F.Fab)
@@ -1701,7 +1701,7 @@
     (descr "JST PH series connector, S2B-PH-K, side entry type, through hole, Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf")
     (tags "connector jst ph")
     (path /57C0D38C)
-    (fp_text reference BT1 (at 1.5 -2.45 180) (layer F.SilkS)
+    (fp_text reference BT1 (at 5.531 -0.062 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value BATTERY (at 1 7.25 180) (layer F.Fab)
@@ -1761,10 +1761,10 @@
     )
   )
 
-  (module custom:JS202011SCQN (layer F.Cu) (tedit 5A1DDF0F) (tstamp 5A1E2C97)
+  (module custom:JS202011SCQN (layer F.Cu) (tedit 5A1DE1AD) (tstamp 5A1E2C97)
     (at 149.503 76.073)
     (path /5A1C8976)
-    (fp_text reference S?1 (at -4.52 -6.274) (layer F.SilkS)
+    (fp_text reference SW1 (at -5.449 -2.732) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value JS202011SCQN (at 0.1 5.575) (layer F.Fab)
@@ -1827,7 +1827,7 @@
   )
 
   (module custom:logo (layer B.Cu) (tedit 5A1DAD7B) (tstamp 58024A51)
-    (at 149.819 71.669 180)
+    (at 150.023 71.647 180)
     (descr "Imported from drawings/logo.svg")
     (tags svg2mod)
     (path /580214C3)
@@ -13738,7 +13738,7 @@
   )
 
   (module custom:page_motor_image (layer B.Cu) (tedit 5802A3FE) (tstamp 5A1DF752)
-    (at 129.263 81.38 180)
+    (at 173.337 82.284 180)
     (descr "Imported from drawings/page_motor_image.svg")
     (tags svg2mod)
     (path /5802A5F3)
@@ -14149,15 +14149,15 @@
   )
 
   (module custom:page_motor_image_flipped (layer F.Cu) (tedit 5802A3FE) (tstamp 5A1DF765)
-    (at 163.407 79.81 315)
+    (at 126.866 81.697)
     (descr "Imported from drawings/page_motor_image.svg")
     (tags svg2mod)
     (path /5802A756)
     (attr smd)
-    (fp_text reference DNP11 (at 0 -7.964767 315) (layer B.SilkS) hide
+    (fp_text reference DNP11 (at 0 -7.964767) (layer B.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value pager_motor_image2 (at 0 7.964767 315) (layer B.SilkS) hide
+    (fp_text value pager_motor_image2 (at 0 7.964767) (layer B.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_poly (pts (xy 0.051607 0.080917) (xy 0.057487 0.297875) (xy 0.159744 0.306078) (xy 0.260561 0.323707)
