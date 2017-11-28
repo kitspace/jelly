@@ -763,61 +763,6 @@ F 3 "" H 9675 5450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L placeholder DNP10
-U 1 1 5802A5F3
-P 3525 7300
-F 0 "DNP10" H 3525 7450 60  0000 C CNN
-F 1 "pager_motor_image1" H 3525 7550 60  0000 C CNN
-F 2 "custom:page_motor_image" H 3525 7450 60  0001 C CNN
-F 3 "" H 3525 7450 60  0001 C CNN
-	1    3525 7300
-	1    0    0    -1  
-$EndComp
-$Comp
-L placeholder DNP11
-U 1 1 5802A756
-P 4525 7325
-F 0 "DNP11" H 4525 7475 60  0000 C CNN
-F 1 "pager_motor_image2" H 4525 7575 60  0000 C CNN
-F 2 "custom:page_motor_image_flipped" H 4525 7475 60  0001 C CNN
-F 3 "" H 4525 7475 60  0001 C CNN
-	1    4525 7325
-	1    0    0    -1  
-$EndComp
-$Comp
-L placeholder DNP12
-U 1 1 5802B04C
-P 5225 7325
-F 0 "DNP12" H 5225 7475 60  0000 C CNN
-F 1 "plus1" H 5225 7575 60  0000 C CNN
-F 2 "custom:plus" H 5225 7475 60  0001 C CNN
-F 3 "" H 5225 7475 60  0001 C CNN
-	1    5225 7325
-	1    0    0    -1  
-$EndComp
-$Comp
-L placeholder DNP13
-U 1 1 5802B75C
-P 5675 7325
-F 0 "DNP13" H 5675 7475 60  0000 C CNN
-F 1 "minus1" H 5675 7575 60  0000 C CNN
-F 2 "custom:minus" H 5675 7475 60  0001 C CNN
-F 3 "" H 5675 7475 60  0001 C CNN
-	1    5675 7325
-	1    0    0    -1  
-$EndComp
-$Comp
-L placeholder DNP15
-U 1 1 5803B7B0
-P 6075 7375
-F 0 "DNP15" H 6075 7525 60  0000 C CNN
-F 1 "cc-logo" H 6075 7625 60  0000 C CNN
-F 2 "custom:cc_by_logo" H 6075 7525 60  0001 C CNN
-F 3 "" H 6075 7525 60  0001 C CNN
-	1    6075 7375
-	1    0    0    -1  
-$EndComp
-$Comp
 L JS202011SCQN S?1
 U 1 1 5A1C8976
 P 1625 1475

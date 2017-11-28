@@ -1,4 +1,4 @@
-(module svg2mod (layer F.Cu) (tedit 5A1DA927)
+(module svg2mod (layer F.Cu) (tedit 5A1DACFB)
   (attr smd)
   (descr "Imported from drawings/jelly.svg")
   (tags svg2mod)
