@@ -306,7 +306,12 @@ F 0 "LED2" H 8925 1775 50  0000 C CNN
 F 1 "LED" H 8925 1575 50  0000 C CNN
 F 2 "KiCad/LEDs.pretty:LED-5MM" H 8925 1675 29  0001 C CNN
 F 3 "~" H 8925 1675 60  0000 C CNN
-F 4 "2112111" H 8925 1675 60  0001 C CNN "Farnell"
+F 4 "5MM LED Red" H 8925 1875 50  0001 C CNN "Description"
+F 5 "751-1118-ND" H 8925 1875 50  0001 C CNN "Digikey"
+F 6 "1328315" H 8925 1675 60  0001 C CNN "Farnell"
+F 7 "78TLHK5100" H 8925 1875 50  0001 C CNN "Mouser"
+F 8 "33C1301" H 8925 1875 50  0001 C CNN "Newark"
+F 9 "8187580" H 8925 1875 50  0001 C CNN "RS"
 	1    8925 1675
 	-1   0    0    1   
 $EndComp
@@ -318,6 +323,14 @@ F 0 "R2" V 9580 1675 40  0000 C CNN
 F 1 "120Ω" V 9507 1676 40  0000 C CNN
 F 2 "custom:R3-5" V 9430 1675 30  0001 C CNN
 F 3 "~" H 9500 1675 30  0000 C CNN
+F 4 "Resistor through-hole 120 ohms" H 9580 1775 50  0001 C CNN "Description"
+F 5 "S120CACT-ND" H 9580 1775 50  0001 C CNN "Digikey"
+F 6 "2614377" H 9580 1775 50  0001 C CNN "Farnell"
+F 7 "LR1F120R" H 9580 1775 50  0001 C CNN "MPN"
+F 8 "TE Connectivity" H 9580 1775 50  0001 C CNN "Manufacturer"
+F 9 "594MBB02070C1200FC1" H 9580 1775 50  0001 C CNN "Mouser"
+F 10 "58K5088" H 9580 1775 50  0001 C CNN "Newark"
+F 11 "125-1156" H 9580 1775 50  0001 C CNN "RS"
 	1    9500 1675
 	0    -1   -1   0   
 $EndComp
@@ -340,6 +353,14 @@ F 0 "R1" V 6580 1775 40  0000 C CNN
 F 1 "120Ω" V 6507 1776 40  0000 C CNN
 F 2 "custom:R3-5" V 6430 1775 30  0001 C CNN
 F 3 "~" H 6500 1775 30  0000 C CNN
+F 4 "Resistor through-hole 1k" H 6580 1875 50  0001 C CNN "Description"
+F 5 "A105951CT-ND" H 6580 1875 50  0001 C CNN "Digikey"
+F 6 "2614370" H 6580 1875 50  0001 C CNN "Farnell"
+F 7 "LR1F1K0" H 6580 1875 50  0001 C CNN "MPN"
+F 8 "TE Connectivity" H 6580 1875 50  0001 C CNN "Manufacturer"
+F 9 "594MBB02070C1001FC1" H 6580 1875 50  0001 C CNN "Mouser"
+F 10 "95W7808" H 6580 1875 50  0001 C CNN "Newark"
+F 11 "148506" H 6580 1875 50  0001 C CNN "RS"
 	1    6500 1775
 	0    -1   -1   0   
 $EndComp
@@ -351,7 +372,12 @@ F 0 "LED1" H 5850 1875 50  0000 C CNN
 F 1 "LED" H 5850 1675 50  0000 C CNN
 F 2 "KiCad/LEDs.pretty:LED-5MM" H 5850 1775 60  0001 C CNN
 F 3 "~" H 5850 1775 60  0000 C CNN
-F 4 "2112111" H 5850 1775 60  0001 C CNN "Farnell"
+F 4 "5MM LED Red" H 5850 1975 50  0001 C CNN "Description"
+F 5 "751-1118-ND" H 5850 1975 50  0001 C CNN "Digikey"
+F 6 "1328315" H 5850 1775 60  0001 C CNN "Farnell"
+F 7 "78TLHK5100" H 5850 1975 50  0001 C CNN "Mouser"
+F 8 "33C1301" H 5850 1975 50  0001 C CNN "Newark"
+F 9 "8187580" H 5850 1975 50  0001 C CNN "RS"
 	1    5850 1775
 	-1   0    0    1   
 $EndComp
@@ -465,10 +491,6 @@ F 3 "" H 900 5750 60  0000 C CNN
 	1    900  5750
 	1    0    0    -1  
 $EndComp
-Text GLabel 5350 1625 2    60   Input ~ 0
-Vout1
-Text GLabel 8300 1525 2    60   Input ~ 0
-Vout2
 $Comp
 L CONN_01X01 P1
 U 1 1 57C22947
@@ -565,6 +587,11 @@ F 0 "PHOTO1" V 4155 1975 50  0000 C CNN
 F 1 "Photores" V 4246 1975 50  0000 C CNN
 F 2 "custom:ldr" V 4530 1975 50  0001 C CNN
 F 3 "" H 4600 1975 50  0000 C CNN
+F 4 "Light dependant resistor" H 4155 2075 50  0001 C CNN "Description"
+F 5 "NSL-19M51-ND" H 4155 2075 50  0001 C CNN "Digikey"
+F 6 "3168335" H 4155 2075 50  0001 C CNN "Farnell"
+F 7 "14J5050" H 4155 2075 50  0001 C CNN "Newark"
+F 8 "9146710" H 4155 2075 50  0001 C CNN "RS"
 	1    4600 1975
 	0    1    1    0   
 $EndComp
@@ -576,6 +603,11 @@ F 0 "PHOTO2" V 7105 1875 50  0000 C CNN
 F 1 "Photores" V 7196 1875 50  0000 C CNN
 F 2 "custom:ldr" V 7480 1875 50  0001 C CNN
 F 3 "" H 7550 1875 50  0000 C CNN
+F 4 "Light dependant resistor" H 7105 1975 50  0001 C CNN "Description"
+F 5 "NSL-19M51-ND" H 7105 1975 50  0001 C CNN "Digikey"
+F 6 "3168335" H 7105 1975 50  0001 C CNN "Farnell"
+F 7 "14J5050" H 7105 1975 50  0001 C CNN "Newark"
+F 8 "9146710" H 7105 1975 50  0001 C CNN "RS"
 	1    7550 1875
 	0    1    1    0   
 $EndComp
@@ -601,10 +633,6 @@ F 3 "" H 8250 5875 60  0001 C CNN
 	1    8250 5725
 	1    0    0    -1  
 $EndComp
-Text GLabel 2150 5675 2    60   Input ~ 0
-Vout1
-Text GLabel 6050 5625 2    60   Input ~ 0
-Vout2
 $Comp
 L GND-RESCUE-bristle_bot #PWR011
 U 1 1 57C36163
@@ -646,7 +674,12 @@ F 0 "RV1" V 4904 2423 50  0000 R CNN
 F 1 "POT" V 4995 2423 50  0000 R CNN
 F 2 "KiCad/Potentiometers.pretty:Potentiometer_Triwood_RM-065" H 4950 2500 50  0001 C CNN
 F 3 "" H 4950 2500 50  0000 C CNN
-F 4 "8867046" V 4950 2500 60  0001 C CNN "Farnell"
+F 4 "Trimpot" H 4904 2523 50  0001 C CNN "Description"
+F 5 "3306F-203-ND" H 4904 2523 50  0001 C CNN "Digikey"
+F 6 "8867046" V 4950 2500 60  0001 C CNN "Farnell"
+F 7 "279416PA203M" H 4904 2523 50  0001 C CNN "Mouser"
+F 8 "46F1086" H 4904 2523 50  0001 C CNN "Newark"
+F 9 "6524316" H 4904 2523 50  0001 C CNN "RS"
 	1    4950 2500
 	0    1    1    0   
 $EndComp
@@ -669,7 +702,12 @@ F 0 "RV2" V 7954 2398 50  0000 R CNN
 F 1 "POT" V 8045 2398 50  0000 R CNN
 F 2 "KiCad/Potentiometers.pretty:Potentiometer_Triwood_RM-065" H 8000 2475 50  0001 C CNN
 F 3 "" H 8000 2475 50  0000 C CNN
-F 4 "8867046" V 8000 2475 60  0001 C CNN "Farnell"
+F 4 "Trimpot" H 7954 2498 50  0001 C CNN "Description"
+F 5 "3306F-203-ND" H 7954 2498 50  0001 C CNN "Digikey"
+F 6 "8867046" V 8000 2475 60  0001 C CNN "Farnell"
+F 7 "279416PA203M" H 7954 2498 50  0001 C CNN "Mouser"
+F 8 "46F1086" H 7954 2498 50  0001 C CNN "Newark"
+F 9 "6524316" H 7954 2498 50  0001 C CNN "RS"
 	1    8000 2475
 	0    1    1    0   
 $EndComp
@@ -692,7 +730,12 @@ F 0 "Q1" H 5441 2021 50  0000 L CNN
 F 1 "Q_NMOS_SGD" H 5441 1930 50  0000 L CNN
 F 2 "KiCad/kicad-footprints/Package_TO_SOT_THT.pretty:TO-92_Inline_Narrow_Oval" H 5450 2075 50  0001 C CNN
 F 3 "" H 5250 1975 50  0000 C CNN
-F 4 "9845178" H 5250 1975 60  0001 C CNN "Farnell"
+F 4 "N-Channel MOSFET Tranistor" H 5441 2121 50  0001 C CNN "Description"
+F 5 "2N7000FS-ND" H 5441 2121 50  0001 C CNN "Digikey"
+F 6 "9845178" H 5250 1975 60  0001 C CNN "Farnell"
+F 7 "5122N7000" H 5441 2121 50  0001 C CNN "Mouser"
+F 8 "58K9650" H 5441 2121 50  0001 C CNN "Newark"
+F 9 "6714733" H 5441 2121 50  0001 C CNN "RS"
 	1    5250 1975
 	1    0    0    -1  
 $EndComp
@@ -704,6 +747,12 @@ F 0 "Q2" H 8416 1921 50  0000 L CNN
 F 1 "Q_NMOS_SGD" H 8416 1830 50  0000 L CNN
 F 2 "KiCad/kicad-footprints/Package_TO_SOT_THT.pretty:TO-92_Inline_Narrow_Oval" H 8425 1975 50  0001 C CNN
 F 3 "" H 8225 1875 50  0000 C CNN
+F 4 "N-Channel MOSFET Tranistor" H 8416 2021 50  0001 C CNN "Description"
+F 5 "2N7000FS-ND" H 8416 2021 50  0001 C CNN "Digikey"
+F 6 "9845178" H 8416 2021 50  0001 C CNN "Farnell"
+F 7 "5122N7000" H 8416 2021 50  0001 C CNN "Mouser"
+F 8 "58K9650" H 8416 2021 50  0001 C CNN "Newark"
+F 9 "6714733" H 8416 2021 50  0001 C CNN "RS"
 	1    8225 1875
 	1    0    0    -1  
 $EndComp
@@ -781,6 +830,47 @@ F 11 "C&K" H 1825 2575 60  0001 L CNN "Manufacturer"
 	1    1625 1475
 	1    0    0    -1  
 $EndComp
+$Comp
+L placeholder DNP8
+U 1 1 5A1DB18D
+P 7775 6075
+F 0 "DNP8" H 7775 6225 60  0000 C CNN
+F 1 "jelly_mirrored" H 7775 6325 60  0000 C CNN
+F 2 "custom:jelly_mirrored" H 7775 6225 60  0001 C CNN
+F 3 "" H 7775 6225 60  0001 C CNN
+	1    7775 6075
+	1    0    0    -1  
+$EndComp
+$Comp
+L placeholder DNP10
+U 1 1 5802A5F3
+P 3525 7300
+F 0 "DNP10" H 3525 7450 60  0000 C CNN
+F 1 "pager_motor_image1" H 3525 7550 60  0000 C CNN
+F 2 "custom:page_motor_image" H 3525 7450 60  0001 C CNN
+F 3 "" H 3525 7450 60  0001 C CNN
+	1    3525 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L placeholder DNP11
+U 1 1 5802A756
+P 4525 7325
+F 0 "DNP11" H 4525 7475 60  0000 C CNN
+F 1 "pager_motor_image2" H 4525 7575 60  0000 C CNN
+F 2 "custom:page_motor_image_flipped" H 4525 7475 60  0001 C CNN
+F 3 "" H 4525 7475 60  0001 C CNN
+	1    4525 7325
+	1    0    0    -1  
+$EndComp
+Text GLabel 5350 1625 2    60   Input ~ 0
+Vout1
+Text GLabel 8300 1525 2    60   Input ~ 0
+Vout2
+Text GLabel 2150 5675 2    60   Input ~ 0
+Vout1
+Text GLabel 6050 5625 2    60   Input ~ 0
+Vout2
 Wire Wire Line
 	5350 1575 5350 1775
 Wire Wire Line
@@ -815,29 +905,24 @@ Wire Wire Line
 	9750 1675 9800 1675
 Wire Wire Line
 	5350 1775 5650 1775
-Connection ~ 5350 1775
 Wire Wire Line
 	6750 1775 6800 1775
 Wire Wire Line
 	900  5950 1450 5950
 Wire Wire Line
 	1450 5950 1450 6150
-Connection ~ 900  5950
 Wire Wire Line
 	1425 7175 1425 7075
 Wire Wire Line
 	925  7075 1925 7075
-Connection ~ 1925 7075
 Wire Wire Line
 	2150 5675 2050 5675
 Wire Wire Line
 	2050 5675 2050 6175
 Wire Wire Line
 	2050 5875 3150 5875
-Connection ~ 2050 5875
 Wire Wire Line
 	2600 5875 2600 6175
-Connection ~ 2600 5875
 Wire Wire Line
 	6000 5625 6000 6075
 Wire Wire Line
@@ -846,7 +931,6 @@ Wire Wire Line
 	5000 5875 6000 5875
 Wire Wire Line
 	5500 6075 5500 5875
-Connection ~ 6000 5875
 Wire Wire Line
 	3150 5875 3150 6175
 Wire Wire Line
@@ -855,24 +939,18 @@ Wire Wire Line
 	4050 5825 4050 5925
 Wire Wire Line
 	4350 5825 4350 6125
-Connection ~ 4050 5825
-Connection ~ 4350 5825
 Wire Wire Line
 	3750 5825 4350 5825
 Wire Wire Line
 	5000 6075 5000 5875
-Connection ~ 5500 5875
 Wire Wire Line
 	925  7175 925  7075
-Connection ~ 1425 7075
 Wire Wire Line
 	3000 7300 3000 7450
 Wire Wire Line
 	3000 7450 3150 7450
-Connection ~ 8000 1875
 Wire Wire Line
 	4950 2350 4950 1975
-Connection ~ 4950 1975
 Wire Wire Line
 	5100 2500 5175 2500
 Wire Wire Line
@@ -883,7 +961,6 @@ Wire Wire Line
 	8225 2475 8225 2550
 Wire Wire Line
 	8300 1675 8725 1675
-Connection ~ 8325 1675
 Wire Wire Line
 	2600 7300 2600 7375
 Wire Wire Line
@@ -894,7 +971,6 @@ Wire Wire Line
 	5350 3100 8325 3100
 Wire Wire Line
 	8325 3100 8325 2075
-Connection ~ 6975 3100
 Wire Wire Line
 	6975 3100 6975 3275
 Wire Wire Line
@@ -913,43 +989,24 @@ Wire Wire Line
 	850  1050 850  1975
 Wire Wire Line
 	850  1975 1325 1975
-Connection ~ 1325 1975
 Wire Wire Line
 	1325 1050 1325 1075
 Wire Wire Line
 	1625 900  1625 1075
+Connection ~ 5350 1775
+Connection ~ 900  5950
+Connection ~ 1925 7075
+Connection ~ 2050 5875
+Connection ~ 2600 5875
+Connection ~ 6000 5875
+Connection ~ 4050 5825
+Connection ~ 4350 5825
+Connection ~ 5500 5875
+Connection ~ 1425 7075
+Connection ~ 8000 1875
+Connection ~ 4950 1975
+Connection ~ 8325 1675
+Connection ~ 6975 3100
+Connection ~ 1325 1975
 Connection ~ 2225 900 
-$Comp
-L placeholder DNP8
-U 1 1 5A1DB18D
-P 7775 6075
-F 0 "DNP8" H 7775 6225 60  0000 C CNN
-F 1 "jelly_mirrored" H 7775 6325 60  0000 C CNN
-F 2 "custom:jelly_mirrored" H 7775 6225 60  0001 C CNN
-F 3 "" H 7775 6225 60  0001 C CNN
-	1    7775 6075
-	1    0    0    -1  
-$EndComp
-$Comp
-L placeholder DNP10
-U 1 1 5802A5F3
-P 3525 7300
-F 0 "DNP10" H 3525 7450 60  0000 C CNN
-F 1 "pager_motor_image1" H 3525 7550 60  0000 C CNN
-F 2 "custom:page_motor_image" H 3525 7450 60  0001 C CNN
-F 3 "" H 3525 7450 60  0001 C CNN
-	1    3525 7300
-	1    0    0    -1  
-$EndComp
-$Comp
-L placeholder DNP11
-U 1 1 5802A756
-P 4525 7325
-F 0 "DNP11" H 4525 7475 60  0000 C CNN
-F 1 "pager_motor_image2" H 4525 7575 60  0000 C CNN
-F 2 "custom:page_motor_image_flipped" H 4525 7475 60  0001 C CNN
-F 3 "" H 4525 7475 60  0001 C CNN
-	1    4525 7325
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC
