@@ -7,8 +7,9 @@ This was heavily inspired by [Facelessloser's project](https://facelesstech.word
 You can buy most of the parts through the [Kitspace page](https://kitspace.org/jelly) but you will also need:
 
 - 2 toothbrush heads (use some old ones!)
-- 2 pager vibration motors
-- 2 cable ties
+- A LiPo battery with a JST connector and built-in protection, anything between 200 - 400mAh should work well (e.g. [from Adafruit](https://www.adafruit.com/product/2750)
+- 2 pager vibration motors (e.g. [from Amazon](https://www.amazon.co.uk/Vibration-Motor-TOOGOO-4-6mm-2000RPM/dp/B01H01PXQ2))
+- 3 100mm cable ties (e.g. [from Amazon](https://www.amazon.co.uk/Sealey-CT25101-Cable-Ties-100mm/dp/B000RO146I))
 
 ## Instructions
 
